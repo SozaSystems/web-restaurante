@@ -1,6 +1,6 @@
 # 🍕 Restaurante - Valentino
 
-> **Aplicación Web Moderna para Restaurante con Menú Interactivo y Sistema de Reservas.**
+> **Aplicación Web Moderna para Restaurante con Menú Interactivo.**
 
 ---
 
