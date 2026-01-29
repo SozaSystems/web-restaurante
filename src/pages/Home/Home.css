@@ -52,7 +52,7 @@
     margin: 0 auto;
     color: var(--color-text-main);
     text-align: justify;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 /* New Sections Styles */
@@ -100,8 +100,8 @@
     color: #F0F0F0;
     line-height: 1.8;
     text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .quality-text {
@@ -109,8 +109,8 @@
     color: var(--color-text-dark);
     line-height: 1.8;
     text-align: justify;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .dishes-grid {
