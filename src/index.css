@@ -1,0 +1,132 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #C3110C;
+  /* Bright Red */
+  --color-primary-dark: #740A03;
+  /* Deep Red */
+  --color-secondary: #E6501B;
+  /* Orange */
+  --color-accent: #E6501B;
+  /* Orange Accent */
+
+  /* Neutral Colors */
+  --color-bg: #280905;
+  /* Dark Brown Main Background */
+  --color-bg-light: #2d100c;
+  /* Slightly lighter brown */
+  --color-text-main: #FFFFFF;
+  /* White */
+  --color-text-dark: #280905;
+  /* Dark Brown */
+  --color-text-muted: #BCAAA4;
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  /* More modern/casual */
+  --font-body: 'Open Sans', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+
+  /* Borders */
+  --border-radius: 8px;
+}
+
+/* Reset & Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-accent);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-sm);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid var(--color-accent);
+  color: var(--color-accent);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+}

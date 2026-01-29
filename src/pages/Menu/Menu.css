@@ -1,0 +1,118 @@
+.menu-page {
+    padding: 2rem 1rem 4rem 1rem;
+}
+
+.menu-title {
+    margin-bottom: 3rem;
+    color: var(--color-secondary);
+    /* Orange Title */
+}
+
+.menu-categories {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-logo-container {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.menu-category {
+    margin-bottom: 1rem;
+    border: none;
+    /* Removed border */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    /* Add shadow for depth */
+}
+
+.category-header {
+    width: 100%;
+    padding: 1.5rem;
+    text-align: left;
+    background: var(--color-primary-dark);
+    /* Deep Red Background */
+    color: white;
+    /* White text for contrast */
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.category-header:hover {
+    background: var(--color-primary);
+    /* Brighten on hover */
+}
+
+.category-header.active {
+    background: var(--color-primary);
+    /* Bright Red when active */
+    color: white;
+}
+
+.category-items {
+    padding: 1.5rem;
+    background: white;
+    /* Keep content white for readability */
+}
+
+.items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.menu-item {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.item-name {
+    font-size: 1.1rem;
+    color: var(--color-bg);
+    /* Dark Brown for item titles */
+    font-weight: 700;
+}
+
+.item-price {
+    font-weight: bold;
+    color: var(--color-primary);
+    /* Bright Red price */
+    font-size: 1.1rem;
+}
+
+.item-desc {
+    color: #555;
+    /* Neutral grey for descriptions */
+    font-size: 0.95rem;
+}
+
+.page-logo {
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+    /* Use 90% of the viewport width */
+    max-width: 1200px;
+    /* Limit for very large screens */
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}

@@ -1,0 +1,132 @@
+.navbar {
+    background-color: var(--color-primary);
+    padding: 0.5rem 0;
+    /* margin-bottom: 1rem; */
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    border-bottom: 1px solid rgba(230, 80, 27, 0.3);
+    /* Subtle Orange border */
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10001;
+    /* Above mobile menu */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 7vmin;
+    min-height: 50px;
+    max-height: 80px;
+    width: auto;
+    object-fit: contain;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: var(--color-text-main);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+    transition: color 0.3s;
+}
+
+.nav-btn:hover,
+.nav-btn.active-link {
+    color: var(--color-accent);
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    flex-direction: column;
+    gap: 6px;
+    padding: 5px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: var(--color-accent);
+    transition: all 0.3s ease;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 60px;
+        /* Adjust based on navbar height */
+        left: 0;
+        right: 0;
+        background-color: var(--color-primary-dark);
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        transform: translateY(-150%);
+        transition: transform 0.3s ease;
+        border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+        z-index: 999;
+        /* Below navbar */
+    }
+
+    .nav-links.active {
+        transform: translateY(0.3rem);
+    }
+
+    /* Hamburger Animation */
+    .bar.active:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .bar.active:nth-child(2) {
+        opacity: 0;
+    }
+
+    .bar.active:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+/* Reservas Special Effect */
+.reservas-link {
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    animation: pulseColor 2s infinite alternate;
+}
+
+@keyframes pulseColor {
+    0% {
+        color: var(--color-text-main);
+        text-shadow: none;
+    }
+
+    100% {
+        color: var(--color-text-dark);
+        text-shadow: 0 0 8px rgba(230, 80, 27, 0.6);
+    }
+}

@@ -1,0 +1,200 @@
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80);
+    /* Pizza Image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 8rem 1rem 4rem 1rem;
+}
+
+/* .hero-title removed */
+
+.hero-logo {
+    max-width: 450px;
+    width: 85%;
+    height: auto;
+    margin-bottom: 3rem;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+
+@media (max-width: 480px) {
+    .hero-logo {
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+.hero-btn {
+    font-size: 1.2rem;
+}
+
+.presentation {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.presentation-text {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--color-text-main);
+    text-align: justify;
+    padding: 2rem;
+}
+
+/* New Sections Styles */
+.section-history,
+.section-quality {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.section-history {
+    background-color: var(--color-primary-dark);
+    /* #740A03 Deep Red */
+    color: white;
+}
+
+.section-quality {
+    background-color: #FFFFFF;
+    /* White contrast */
+    color: var(--color-text-dark);
+}
+
+.section-title {
+    margin-bottom: 2rem;
+    color: var(--color-accent);
+    /* Orange */
+    font-size: 2.5rem;
+}
+
+.section-quality .section-title {
+    color: var(--color-primary);
+    /* Bright Red title on white bg */
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.history-text {
+    font-size: 1.1rem;
+    color: #F0F0F0;
+    line-height: 1.8;
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.quality-text {
+    font-size: 1.1rem;
+    color: var(--color-text-dark);
+    line-height: 1.8;
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.dish-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dish-card:hover {
+    transform: translateY(-5px);
+}
+
+.dish-title {
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.cta-section {
+    padding: 5rem 1rem;
+    background-color: var(--color-primary);
+    color: white;
+    text-align: center;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-cta {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border: 2px solid white;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50px;
+    /* Fully rounded/pill shape */
+    min-width: 220px;
+    /* Force equal width */
+    font-family: var(--font-heading);
+    box-sizing: border-box;
+}
+
+.btn-cta-outline {
+    background-color: transparent;
+    color: white;
+}
+
+.btn-cta-outline:hover {
+    background-color: white;
+    color: var(--color-primary);
+    /* Invert colors on hover to match "white" style */
+    transform: translateY(-2px);
+}
+
+.btn-cta-white {
+    background-color: white;
+    color: var(--color-primary);
+    border-color: white;
+}
+
+.btn-cta-white:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
