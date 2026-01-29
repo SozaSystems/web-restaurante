@@ -78,7 +78,7 @@ El restaurante ofrece **15 categorías** con un total de **86 items**:
 
 ## 🔗 Visitar Sitio
 Puedes ver el proyecto en funcionamiento aquí:
-👉 **[valetino.vercel.app](https://valetino.vercel.app/)**
+👉 **[valentinoweb.vercel.app](https://valentinoweb.vercel.app/)**
 
 ---
 
