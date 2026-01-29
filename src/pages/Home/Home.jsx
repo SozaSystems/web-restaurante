@@ -16,7 +16,7 @@ const Home = () => {
                     Una experiencia gastronómica elegante con sabores inolvidables.
                 </p>
                 <a
-                    href="https://wa.me/1234567890"
+                    href="https://wa.me/5493533402144"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary hero-btn"
@@ -29,9 +29,7 @@ const Home = () => {
             {/* Presentation Section */}
             <section className="presentation container">
                 <p className="presentation-text">
-                    Ubicado en Las Varillas, Valentino es tu destino para disfrutar de auténticas pizzas artesanales y deliciosa comida mexicana.
-                    Nuestra amplia variedad de platos combina sabores tradicionales con recetas innovadoras, creando experiencias gastronómicas únicas.
-                    Ven a descubrir por qué somos el lugar favorito de la ciudad para compartir buenos momentos alrededor de la mejor comida.
+                    En el corazón de Las Varillas, Valentino te ofrece una experiencia gastronómica completa donde la variedad y la calidad se encuentran. Un espacio donde cada plato cuenta una historia y cada visita se convierte en un momento especial.
                 </p>
             </section>
 
@@ -40,9 +38,9 @@ const Home = () => {
                 <div className="section-content">
                     <h2 className="section-title">Nuestra Historia</h2>
                     <p className="history-text">
-                        Fundado en 1995, Valentino nació de la pasión por la auténtica cocina italiana y el deseo de crear un espacio donde cada comida se convierta en un recuerdo memorable.
-                        A lo largo de los años, hemos perfeccionado nuestras recetas, mantenido intacta nuestra dedicación a la excelencia y crecido junto a nuestra comunidad de comensales.
-                        Lo que comenzó como un pequeño bistro familiar se ha transformado en un referente de la gastronomía local, sin perder nunca esa calidez que nos caracteriza.
+                        Fundado en 2010, Valentino comenzó como una pizzería artesanal, conquistando paladares con nuestras auténticas recetas italianas.
+                        Con el tiempo, incorporamos la vibrante comida mexicana a nuestro menú, fusionando dos grandes tradiciones culinarias.
+                        Hoy, hemos evolucionado hasta convertirnos en un restaurante completo, ofreciendo una amplia variedad de platos que van desde nuestras clásicas pizzas hasta sabores internacionales, sin perder nunca esa calidez y dedicación a la excelencia que nos caracteriza desde el primer día.
                     </p>
                 </div>
             </section>
@@ -67,7 +65,7 @@ const Home = () => {
                         </div>
                         <div className="dish-card">
                             <h3 className="dish-title">Take Away</h3>
-                            <p>Haz tu pedido y retíralo en el local sin esperas. Ideal para cuando estás de paso.</p>
+                            <p>Pedí y retirá para disfrutar donde quieras. <strong>¡10% de descuento en toda tu compra!</strong></p>
                         </div>
                     </div>
                 </div>
@@ -87,7 +85,7 @@ const Home = () => {
                         Ver Menú
                     </button>
                     <a
-                        href="https://wa.me/1234567890"
+                        href="https://wa.me/5493533402144"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-cta btn-cta-white"

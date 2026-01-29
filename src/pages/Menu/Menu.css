@@ -116,3 +116,48 @@
     object-fit: contain;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
+
+/* Promotional Section */
+.menu-promo {
+    max-width: 800px;
+    margin: 3rem auto 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.promo-text {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.5px;
+}
+
+@keyframes pulse-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 8px 24px rgba(255, 107, 53, 0.6);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .menu-promo {
+        margin: 2rem 1rem 1rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .promo-text {
+        font-size: 1.1rem;
+    }
+}

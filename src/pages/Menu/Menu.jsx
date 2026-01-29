@@ -11,12 +11,17 @@ const Menu = () => {
         const isOpening = openCategory !== id;
         setOpenCategory(openCategory === id ? null : id);
 
-        // Scroll to category header when opening
+        // Scroll to category header when opening with offset for navbar
         if (isOpening && categoryRefs.current[id]) {
             setTimeout(() => {
-                categoryRefs.current[id].scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
+                const element = categoryRefs.current[id];
+                const navbarHeight = 80; // Approximate navbar height
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
                 });
             }, 100);
         }
@@ -60,6 +65,10 @@ const Menu = () => {
                         )}
                     </div>
                 ))}
+            </div>
+
+            <div className="menu-promo">
+                <p className="promo-text">🎉 ¡10% de descuento en toda la compra en TAKE AWAY! 🎉</p>
             </div>
         </div>
     );
