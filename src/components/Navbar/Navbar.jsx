@@ -50,7 +50,6 @@ const Navbar = () => {
                 <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
                     <span className={`bar ${isOpen ? 'active' : ''}`}></span>
                     <span className={`bar ${isOpen ? 'active' : ''}`}></span>
-                    <span className={`bar ${isOpen ? 'active' : ''}`}></span>
                 </button>
             </div>
         </nav>

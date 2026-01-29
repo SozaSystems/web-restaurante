@@ -58,22 +58,36 @@
     display: none;
     background: none;
     flex-direction: column;
-    gap: 6px;
-    padding: 5px;
+    gap: 0px;
+    padding: 8px;
+    position: relative;
+    width: 40px;
+    height: 32px;
 }
 
 .bar {
     display: block;
-    width: 25px;
-    height: 2px;
+    width: 32px;
+    height: 3px;
     background-color: var(--color-accent);
     transition: all 0.3s ease;
+    position: absolute;
+    left: 4px;
+}
+
+.bar:nth-child(1) {
+    top: 10px;
+}
+
+.bar:nth-child(2) {
+    top: 19px;
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
+        margin-right: 0.1rem;
     }
 
     .nav-links {
@@ -99,15 +113,13 @@
 
     /* Hamburger Animation */
     .bar.active:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        top: 14.5px;
+        transform: rotate(45deg);
     }
 
     .bar.active:nth-child(2) {
-        opacity: 0;
-    }
-
-    .bar.active:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        top: 14.5px;
+        transform: rotate(-45deg);
     }
 }
 
