@@ -100,6 +100,17 @@ body {
   color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Fix para Safari iOS - asegurar altura mínima */
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  /* Prevenir problemas de renderizado en Safari */
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  /* Fix para Safari iOS viewport height */
+  height: -webkit-fill-available;
 }
 
 h1,
@@ -128,6 +139,23 @@ button {
   cursor: pointer;
   border: none;
   border-radius: var(--border-radius);
+}
+
+/* App Container - Fix para navbar fixed */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+main {
+  flex: 1;
+  /* Compensar altura del navbar fixed */
+  padding-top: 60px;
+  /* Forzar renderizado en Safari iOS */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 /* Utility Classes */
