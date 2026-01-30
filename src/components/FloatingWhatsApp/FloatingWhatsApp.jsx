@@ -1,7 +1,7 @@
 import './FloatingWhatsApp.css';
 
 const FloatingWhatsApp = () => {
-    const phoneNumber = "5493533402144";
+    const phoneNumber = "5493533515989";
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
     return (

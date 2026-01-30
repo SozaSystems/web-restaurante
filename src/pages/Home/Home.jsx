@@ -12,11 +12,9 @@ const Home = () => {
             {/* Hero Section */}
             <section className="hero">
                 <img src={logo} alt="Valentino Logo" className="hero-logo" />
-                <p className="hero-subtitle">
-                    Una experiencia gastronómica elegante con sabores inolvidables.
-                </p>
+                <p className="hero-subtitle">Pizza casera que une momentos.</p>
                 <a
-                    href="https://wa.me/5493533402144"
+                    href="https://wa.me/5493533515989"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary hero-btn"
@@ -26,21 +24,32 @@ const Home = () => {
                 </a>
             </section>
 
-            {/* Presentation Section */}
-            <section className="presentation container">
-                <p className="presentation-text">
+            {/* Presentation Section
+            <section>
+                {/* <p className="presentation-text">
                     En el corazón de Las Varillas, Valentino te ofrece una experiencia gastronómica completa donde la variedad y la calidad se encuentran. Un espacio donde cada plato cuenta una historia y cada visita se convierte en un momento especial.
-                </p>
-            </section>
+                </p> */}
+            {/* </section> */}
 
             {/* History Section */}
             <section className="section-history">
                 <div className="section-content">
                     <h2 className="section-title">Nuestra Historia</h2>
                     <p className="history-text">
-                        Fundado en 2010, Valentino comenzó como una pizzería artesanal, conquistando paladares con nuestras auténticas recetas italianas.
-                        Con el tiempo, incorporamos la vibrante comida mexicana a nuestro menú, fusionando dos grandes tradiciones culinarias.
-                        Hoy, hemos evolucionado hasta convertirnos en un restaurante completo, ofreciendo una amplia variedad de platos que van desde nuestras clásicas pizzas hasta sabores internacionales, sin perder nunca esa calidez y dedicación a la excelencia que nos caracteriza desde el primer día.
+                        Desde 2008, en Valentino hacemos pizzas con historia.
+                        Nacimos con la idea de crear algo distinto en la ciudad, construyendo nuestro propio horno de barro y apostando por pizzas con un toque casero, único y familiar.
+                        <br />
+                        <br />
+                        Fuimos pioneros incorporando sabores nuevos como tacos, nachos y canastitas, sin dejar de lado los clásicos, para armar una mesa pensada para todos los gustos.
+                        Pero siempre hubo una protagonista: nuestra pizza, la estrella que nos dio identidad, crecimiento y visión.
+                        <br />
+                        <br />
+                        Hoy vamos más allá del producto.
+                        Creemos en los momentos compartidos, en el encuentro y en la experiencia.
+                        Trabajamos cada día para mejorar la calidad y el disfrute de quienes nos eligen.
+                        <br />
+                        <br />
+                        Valentino. Pizza, momentos y ganas de volver. 🍕❤️
                     </p>
                 </div>
             </section>
@@ -85,7 +94,7 @@ const Home = () => {
                         Ver Menú
                     </button>
                     <a
-                        href="https://wa.me/5493533402144"
+                        href="https://wa.me/5493533515989"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn btn-cta btn-cta-white"

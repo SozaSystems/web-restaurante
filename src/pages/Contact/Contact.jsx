@@ -27,13 +27,13 @@ const Contact = () => {
                         <h2 className="info-title">Contactanos</h2>
                         <p className="subtitle">Para reservas, delivery o take away</p>
                         <a
-                            href="https://wa.me/5493533402144"
+                            href="https://wa.me/5493533515989"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary whatsapp-btn"
                             style={{ textDecoration: 'none', display: 'inline-block' }}
                         >
-                            WhatsApp: +54 9 353 340 2144
+                            WhatsApp: +54 9 353 351 5989
                         </a>
                     </div>
                 </div>
