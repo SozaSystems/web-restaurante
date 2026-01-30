@@ -106,11 +106,17 @@ body {
   min-height: -webkit-fill-available;
   /* Prevenir problemas de renderizado en Safari */
   -webkit-overflow-scrolling: touch;
+  /* Prevenir overscroll bounce en iOS */
+  overscroll-behavior-y: none;
 }
 
 html {
   /* Fix para Safari iOS viewport height */
   height: -webkit-fill-available;
+  /* Fix para overscroll en iOS - usar color del footer para consistencia */
+  background-color: #1a6440;
+  /* Prevenir el bounce scroll mostrando color de fondo inconsistente */
+  overscroll-behavior: none;
 }
 
 h1,
