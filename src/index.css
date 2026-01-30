@@ -111,8 +111,8 @@ body {
 html {
   /* Fix para Safari iOS viewport height */
   height: -webkit-fill-available;
-  /* Fix para overscroll en iOS - color de fondo que coincide con el footer */
-  background-color: #1a6440;
+  /* Restaurar fondo beige para evitar inconsistencias y flashes */
+  background-color: var(--color-bg);
 }
 
 h1,
@@ -144,22 +144,23 @@ button {
 }
 
 /* App Container - Fix para navbar fixed */
+/* App Container - Fix para navbar fixed */
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  /* Mismo color que html para consistencia en overscroll */
-  background-color: #1a6440;
+  background-color: var(--bg-main);
+  position: relative;
 }
 
 main {
   flex: 1;
   /* Compensar altura del navbar fixed */
   padding-top: 60px;
-  /* Forzar renderizado en Safari iOS */
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+  /* Crear contexto de apilamiento para asegurar visibilidad */
+  position: relative;
+  z-index: 1;
   /* Fondo del body para el contenido */
   background-color: var(--bg-main);
 }
