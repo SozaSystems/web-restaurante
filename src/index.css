@@ -94,6 +94,13 @@
   padding: 0;
 }
 
+html {
+  /* Estandarizar altura */
+  height: 100%;
+  /* Fondo neutro inicial */
+  background-color: var(--color-bg);
+}
+
 body {
   font-family: var(--font-body);
   background-color: var(--bg-main);
@@ -101,18 +108,19 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* Fix para Safari iOS - asegurar altura mínima */
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
-  /* Prevenir problemas de renderizado en Safari */
+  /* Altura estándar */
+  min-height: 100%;
+  margin: 0;
+  /* Mejorar scroll en móvil */
   -webkit-overflow-scrolling: touch;
 }
 
-html {
-  /* Fix para Safari iOS viewport height */
-  height: -webkit-fill-available;
-  /* Restaurar fondo beige para evitar inconsistencias y flashes */
-  background-color: var(--color-bg);
+/* CRITICO: Contenedor de React debe tener altura */
+#root {
+  isolation: isolate;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -145,11 +153,13 @@ button {
 
 /* App Container - Fix para navbar fixed */
 /* App Container - Fix para navbar fixed */
+/* App Container */
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  min-height: -webkit-fill-available;
+  flex: 1;
+  /* Ocupar todo el espacio del #root */
+  width: 100%;
   background-color: var(--bg-main);
   position: relative;
 }
