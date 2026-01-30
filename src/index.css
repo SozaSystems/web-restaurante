@@ -1,28 +1,79 @@
 :root {
-  /* Brand Colors */
-  --color-primary: #C3110C;
-  /* Bright Red */
-  --color-primary-dark: #740A03;
-  /* Deep Red */
-  --color-secondary: #E6501B;
-  /* Orange */
-  --color-accent: #E6501B;
-  /* Orange Accent */
+  /* ===== PALETA DE COLORES BASE ===== */
+  /* Solo 5 colores permitidos: Primary (Coral), Secondary (Verde), Background (Beige), Negro, Blanco */
 
-  /* Neutral Colors */
-  --color-bg: #280905;
-  /* Dark Brown Main Background */
-  --color-bg-light: #2d100c;
-  /* Slightly lighter brown */
-  --color-text-main: #FFFFFF;
-  /* White */
-  --color-text-dark: #280905;
-  /* Dark Brown */
-  --color-text-muted: #BCAAA4;
+  /* Color Principal - Coral/Salmón */
+  --color-primary: #da594a;
+  --color-primary-dark: #b8473a;
+  /* Versión más oscura del coral */
+  --color-primary-light: #e88a7e;
+  /* Versión más clara del coral */
+
+  /* Color Secundario - Verde */
+  --color-secondary: #207c50;
+  --color-secondary-dark: #1a6440;
+  /* Verde más oscuro */
+  --color-secondary-light: #2a9d65;
+  /* Verde más claro */
+
+  /* Color de Fondo - Beige/Dorado */
+  --color-bg: #f3dea5;
+  --color-bg-light: #f8ead0;
+  /* Beige más claro */
+  --color-bg-dark: #e6ce8a;
+  /* Beige más oscuro */
+
+  /* Colores Base - Negro y Blanco */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-black-soft: #1a1a1a;
+  /* Negro suave para textos */
+  --color-white-soft: #f5f5f5;
+  /* Blanco suave para fondos */
+
+  /* ===== VARIABLES SEMÁNTICAS ===== */
+  /* Uso específico según contexto */
+
+  /* Textos */
+  --text-primary: var(--color-black-soft);
+  /* Texto principal sobre fondos claros */
+  --text-secondary: var(--color-secondary);
+  /* Texto de acento verde */
+  --text-on-dark: var(--color-white);
+  /* Texto sobre fondos oscuros */
+  --text-on-primary: var(--color-white);
+  /* Texto sobre color primary */
+  --text-on-secondary: var(--color-white);
+  /* Texto sobre color secondary */
+
+  /* Fondos de Secciones */
+  --bg-main: var(--color-bg);
+  /* Fondo principal de la página */
+  --bg-section-light: var(--color-white);
+  /* Secciones con fondo blanco */
+  --bg-section-primary: var(--color-primary);
+  /* Secciones destacadas coral */
+  --bg-section-secondary: var(--color-secondary);
+  /* Secciones destacadas verde */
+  --bg-section-beige: var(--color-bg-light);
+  /* Secciones con beige claro */
+
+  /* Botones */
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-dark);
+  --btn-primary-text: var(--color-white);
+
+  --btn-secondary-bg: var(--color-secondary);
+  --btn-secondary-hover: var(--color-secondary-dark);
+  --btn-secondary-text: var(--color-white);
+
+  /* Bordes y Divisores */
+  --border-light: rgba(0, 0, 0, 0.1);
+  --border-primary: var(--color-primary);
+  --border-secondary: var(--color-secondary);
 
   /* Typography */
   --font-heading: 'Outfit', sans-serif;
-  /* More modern/casual */
   --font-body: 'Open Sans', sans-serif;
 
   /* Spacing */
@@ -33,6 +84,7 @@
 
   /* Borders */
   --border-radius: 8px;
+  --border-radius-lg: 12px;
 }
 
 /* Reset & Base Styles */
@@ -44,8 +96,8 @@
 
 body {
   font-family: var(--font-body);
-  background-color: var(--color-bg);
-  color: var(--color-text-main);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
@@ -58,7 +110,7 @@ h5,
 h6 {
   font-family: var(--font-heading);
   font-weight: 700;
-  color: var(--color-accent);
+  color: var(--text-secondary);
 }
 
 a {
@@ -109,24 +161,38 @@ button {
   padding: 0.8rem 1.5rem;
   font-weight: 600;
   transition: all 0.3s ease;
+  border-radius: var(--border-radius);
 }
 
 .btn-primary {
-  background-color: var(--color-primary);
-  color: white;
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(--btn-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary {
+  background-color: var(--btn-secondary-bg);
+  color: var(--btn-secondary-text);
+}
+
+.btn-secondary:hover {
+  background-color: var(--btn-secondary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .btn-outline {
   background-color: transparent;
-  border: 2px solid var(--color-accent);
-  color: var(--color-accent);
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
 .btn-outline:hover {
-  background-color: var(--color-accent);
-  color: var(--color-bg);
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }

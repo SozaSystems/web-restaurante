@@ -8,7 +8,7 @@ const Footer = () => {
                 <p className="footer-text">
                     &copy; {new Date().getFullYear()} Valentino. Todos los derechos reservados.
                 </p>
-                <p className="footer-text" style={{ fontSize: '0.8rem', marginTop: '0.5rem', opacity: 0.8 }}>
+                <p className="footer-text footer-dev">
                     Desarrollado por <a href="https://sozasystems.vercel.app/" target="_blank" rel="noopener noreferrer" className="soza-link">Soza Systems</a>
                 </p>
             </div>

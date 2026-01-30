@@ -1,26 +1,25 @@
+/* ===== HERO SECTION ===== */
 .hero {
     min-height: 90vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80);
-    /* Pizza Image */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+        url(https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80);
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--text-on-dark);
     text-align: center;
     padding: 8rem 1rem 4rem 1rem;
 }
-
-/* .hero-title removed */
 
 .hero-logo {
     max-width: 450px;
     width: 85%;
     height: auto;
     margin-bottom: 3rem;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.7));
 }
 
 @media (max-width: 480px) {
@@ -30,60 +29,65 @@
     }
 }
 
-
 .hero-subtitle {
     font-size: 1.5rem;
     max-width: 600px;
     margin-bottom: 4rem;
+    color: var(--color-white);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero-btn {
     font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.presentation {
-    padding: 4rem 1rem;
-    text-align: center;
-}
-
-.presentation-text {
-    font-size: 1.1rem;
-    max-width: 800px;
-    margin: 0 auto;
-    color: var(--color-text-main);
-    text-align: justify;
-    padding: 1rem;
-}
-
-/* New Sections Styles */
-.section-history,
-.section-quality {
-    padding: 4rem 1rem;
-    text-align: center;
-}
-
+/* ===== SECTION: HISTORIA (Verde) ===== */
 .section-history {
-    background-color: var(--color-primary-dark);
-    /* #740A03 Deep Red */
-    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: var(--bg-section-secondary);
+    color: var(--text-on-secondary);
 }
 
-.section-quality {
-    background-color: #FFFFFF;
-    /* White contrast */
-    color: var(--color-text-dark);
-}
-
-.section-title {
-    margin-bottom: 2rem;
-    color: var(--color-accent);
-    /* Orange */
+.section-history .section-title {
+    color: var(--color-white);
     font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.history-text {
+    font-size: 1.1rem;
+    color: var(--color-white);
+    line-height: 1.8;
+    text-align: justify;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    opacity: 0.95;
+}
+
+/* ===== SECTION: SERVICIOS (Blanco) ===== */
+.section-quality {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: var(--bg-section-light);
+    color: var(--text-primary);
 }
 
 .section-quality .section-title {
-    color: var(--color-primary);
-    /* Bright Red title on white bg */
+    color: var(--color-secondary);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.quality-text {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    line-height: 1.8;
+    text-align: justify;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .section-content {
@@ -95,24 +99,7 @@
     margin: 0 auto;
 }
 
-.history-text {
-    font-size: 1.1rem;
-    color: #F0F0F0;
-    line-height: 1.8;
-    text-align: justify;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-}
-
-.quality-text {
-    font-size: 1.1rem;
-    color: var(--color-text-dark);
-    line-height: 1.8;
-    text-align: justify;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-}
-
+/* ===== CARDS DE SERVICIOS ===== */
 .dishes-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -122,15 +109,18 @@
 }
 
 .dish-card {
-    background: white;
+    background: var(--color-white);
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    border-radius: var(--border-radius-lg);
+    border: 2px solid var(--color-bg-dark);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 
 .dish-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border-color: var(--color-primary);
 }
 
 .dish-title {
@@ -139,11 +129,22 @@
     font-size: 1.3rem;
 }
 
+.dish-card p {
+    color: var(--text-primary);
+}
+
+/* ===== SECTION: CTA FINAL (Coral) ===== */
 .cta-section {
     padding: 5rem 1rem;
-    background-color: var(--color-primary);
-    color: white;
+    background-color: var(--bg-section-primary);
+    color: var(--text-on-primary);
     text-align: center;
+}
+
+.cta-section-title {
+    color: var(--color-white);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .cta-buttons {
@@ -154,10 +155,11 @@
     flex-wrap: wrap;
 }
 
+/* ===== BOTONES CTA ===== */
 .btn-cta {
     font-size: 1.2rem;
     padding: 0.8rem 2rem;
-    border: 2px solid white;
+    border: 2px solid var(--color-white);
     text-decoration: none;
     display: inline-flex;
     justify-content: center;
@@ -166,35 +168,50 @@
     cursor: pointer;
     font-weight: 600;
     border-radius: 50px;
-    /* Fully rounded/pill shape */
     min-width: 220px;
-    /* Force equal width */
     font-family: var(--font-heading);
     box-sizing: border-box;
 }
 
 .btn-cta-outline {
     background-color: transparent;
-    color: white;
+    color: var(--color-white);
+    border-color: var(--color-white);
 }
 
 .btn-cta-outline:hover {
-    background-color: white;
+    background-color: var(--color-white);
     color: var(--color-primary);
-    /* Invert colors on hover to match "white" style */
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .btn-cta-white {
-    background-color: white;
+    background-color: var(--color-white);
     color: var(--color-primary);
-    border-color: white;
+    border-color: var(--color-white);
 }
 
 .btn-cta-white:hover {
-    background-color: transparent;
-    color: white;
-    border-color: white;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-color: var(--color-secondary);
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== PRESENTATION (Si se usa) ===== */
+.presentation {
+    padding: 4rem 1rem;
+    text-align: center;
+    background-color: var(--bg-section-beige);
+}
+
+.presentation-text {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--text-primary);
+    text-align: justify;
+    padding: 1rem;
 }

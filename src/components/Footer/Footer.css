@@ -1,25 +1,40 @@
 .footer {
     padding: 2rem 0;
     text-align: center;
-    border-top: 1px solid rgba(230, 80, 27, 0.3);
-    margin-top: auto;
+    background-color: var(--color-secondary-dark);
+    margin-top: 0;
 }
 
 .footer-text {
-    color: var(--color-text-muted);
+    color: var(--color-white);
     font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.footer-dev {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    opacity: 0.8;
 }
 
 .soza-link {
-    color: white;
+    color: #FFF;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 0 0 3px #FF3333, 0 0 6px #FF3333;
-    /* Neon/Fluor text glow */
+    text-shadow:
+        0 0 5px #FF6600,
+        0 0 10px #FF6600,
+        0 0 15px #FF8C00,
+        0 0 20px #FF8C00;
     transition: all 0.3s ease;
 }
 
 .soza-link:hover {
-    text-shadow: 0 0 6px #FF3333, 0 0 12px #FF3333, 0 0 18px #FF3333;
-    transform: scale(1.05);
+    color: #FFF;
+    text-shadow:
+        0 0 8px #FF0000,
+        0 0 15px #FF0000,
+        0 0 25px #DC143C,
+        0 0 35px #DC143C;
+    transform: scale(1.08);
 }

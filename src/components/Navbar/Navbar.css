@@ -33,25 +33,54 @@
 
 .nav-links {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
+    margin-right: -2rem;
 }
 
 .nav-btn {
     background: none;
     border: none;
-    color: var(--color-text-main);
+    color: var(--color-white);
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
-    padding: 0;
+    padding: 0.5rem 0.75rem;
     font-family: inherit;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
+    position: relative;
+    border-radius: 20px;
 }
 
-.nav-btn:hover,
+/* Efecto de subrayado en hover */
+.nav-btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color-bg-light);
+    transition: width 0.3s ease;
+}
+
+.nav-btn:hover {
+    color: var(--color-bg-light);
+}
+
+.nav-btn:hover::after {
+    width: 100%;
+}
+
+/* Menú activo/seleccionado */
 .nav-btn.active-link {
-    color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: 700;
+    background-color: var(--color-primary-dark);
+}
+
+.nav-btn.active-link::after {
+    display: none;
 }
 
 .hamburger {
@@ -69,10 +98,11 @@
     display: block;
     width: 32px;
     height: 3px;
-    background-color: var(--color-accent);
+    background-color: var(--color-white);
     transition: all 0.3s ease;
     position: absolute;
     left: 4px;
+    border-radius: 2px;
 }
 
 .bar:nth-child(1) {
@@ -133,12 +163,12 @@
 
 @keyframes pulseColor {
     0% {
-        color: var(--color-text-main);
+        color: var(--color-white);
         text-shadow: none;
     }
 
     100% {
-        color: var(--color-text-dark);
-        text-shadow: 0 0 8px rgba(230, 80, 27, 0.6);
+        color: var(--color-bg-light);
+        text-shadow: 0 0 8px rgba(243, 222, 165, 0.8);
     }
 }

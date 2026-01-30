@@ -147,12 +147,12 @@ export const menuData = [
                 price: '$19500'
             },
             {
-                name: 'TABLA DE FRUTO DE MARE (2 personas)',
+                name: 'TABLA DE MARISCOS (2 personas)',
                 description: 'Langostinos, mejillones, cornalitos, merluzón, rabas, papas y limón. Rebozados con salsas y limón',
                 price: '$65000'
             },
             {
-                name: 'TABLA DE FRUTO DE MARE (4 personas)',
+                name: 'TABLA DE MARISCOS (4 personas)',
                 description: 'Langostinos, mejillones, cornalitos, merluzón, rabas, papas y limón. Rebozados con salsas y limón',
                 price: '$115000'
             }
@@ -488,34 +488,49 @@ export const menuData = [
         title: 'Vinos',
         items: [
             {
-                name: 'VINO OTRO ⅜',
-                description: 'Vino 375ml',
+                name: 'SANTA JULIA ⅜',
+                description: 'Vino Santa Julia 375ml',
                 price: '$7000'
             },
             {
-                name: 'VINO OTRO ¾',
-                description: 'Vino 750ml',
-                price: '$7500'
-            },
-            {
-                name: 'SANTA JULIA ¾',
-                description: 'Vino Santa Julia 750ml',
+                name: 'SANTA JULIA ¾ TINTO',
+                description: 'Vino Santa Julia 750ml tinto',
                 price: '$9500'
             },
             {
-                name: 'LAS PERDICES',
-                description: 'Vino Las Perdices',
+                name: 'SANTA JULIA ¾ BLANCO',
+                description: 'Vino Santa Julia 750ml blanco',
+                price: '$9500'
+            },
+            {
+                name: 'LAS PERDICES ¾ TINTO',
+                description: 'Vino Las Perdices 750ml tinto',
                 price: '$13000'
             },
             {
-                name: 'VINO BLANCO',
-                description: 'Vino blanco',
-                price: 'Consultar'
+                name: 'LAS PERDICES ¾ BLANCO',
+                description: 'Vino Las Perdices 750ml blanco',
+                price: '$13000'
             },
             {
-                name: 'VINO BLANCO DULCE',
-                description: 'Vino blanco dulce',
-                price: 'Consultar'
+                name: 'PARTRIDGE ¾ BLANCO',
+                description: 'Vino Partridge 750ml blanco',
+                price: '$7500'
+            },
+            {
+                name: 'PARTRIDGE ¾ TINTO',
+                description: 'Vino Partridge 750ml tinto',
+                price: '$7500'
+            },
+            {
+                name: 'SANTA JULIA DULCE',
+                description: 'Vino Santa Julia dulce',
+                price: '$9000'
+            },
+            {
+                name: 'LAS PERDICES DULCE',
+                description: 'Vino Las Perdices dulce',
+                price: '$15000'
             }
         ]
     }

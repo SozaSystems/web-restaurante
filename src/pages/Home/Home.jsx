@@ -18,7 +18,6 @@ const Home = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-primary hero-btn"
-                    style={{ textDecoration: 'none', display: 'inline-block' }}
                 >
                     Reservar Mesa
                 </a>
@@ -82,7 +81,7 @@ const Home = () => {
 
             {/* Final CTA Section */}
             <section className="cta-section">
-                <h2 className="section-title" style={{ color: 'white' }}>Vive la Experiencia Valentino</h2>
+                <h2 className="section-title cta-section-title">Vive la Experiencia Valentino</h2>
                 <div className="cta-buttons">
                     <button
                         onClick={() => {
