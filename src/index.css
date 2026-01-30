@@ -106,17 +106,13 @@ body {
   min-height: -webkit-fill-available;
   /* Prevenir problemas de renderizado en Safari */
   -webkit-overflow-scrolling: touch;
-  /* Prevenir overscroll bounce en iOS */
-  overscroll-behavior-y: none;
 }
 
 html {
   /* Fix para Safari iOS viewport height */
   height: -webkit-fill-available;
-  /* Fix para overscroll en iOS - usar color del footer para consistencia */
+  /* Fix para overscroll en iOS - color de fondo que coincide con el footer */
   background-color: #1a6440;
-  /* Prevenir el bounce scroll mostrando color de fondo inconsistente */
-  overscroll-behavior: none;
 }
 
 h1,
@@ -153,6 +149,8 @@ button {
   flex-direction: column;
   min-height: 100vh;
   min-height: -webkit-fill-available;
+  /* Mismo color que html para consistencia en overscroll */
+  background-color: #1a6440;
 }
 
 main {
@@ -162,6 +160,8 @@ main {
   /* Forzar renderizado en Safari iOS */
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  /* Fondo del body para el contenido */
+  background-color: var(--bg-main);
 }
 
 /* Utility Classes */
