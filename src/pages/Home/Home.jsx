@@ -59,7 +59,7 @@ const Home = () => {
                     <h2 className="section-title">Nuestros Servicios</h2>
                     <p className="quality-text">
                         Disfruta de la experiencia Valentino donde prefieras.
-                        Ya sea en nuestro elegante restaurante, en la comodidad de tu hogar o pasando a retirar tu pedido.
+                        Ya sea en nuestro restaurante, en la comodidad de tu hogar o pasando a retirar tu pedido.
                     </p>
 
                     <div className="dishes-grid">
