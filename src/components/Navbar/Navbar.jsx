@@ -21,36 +21,46 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="container navbar-content">
-                <a href="#" className="logo" onClick={(e) => { e.preventDefault(); handleNavigation('home'); }}>
-                    <img src={logo} alt="Valentino Logo" className="logo-img" />
-                </a>
+                {currentView === 'delivery' ? (
+                    <div className="logo">
+                        <img src={logo} alt="Valentino Logo" className="logo-img" />
+                    </div>
+                ) : (
+                    <a href="#" className="logo" onClick={(e) => { e.preventDefault(); handleNavigation('home'); }}>
+                        <img src={logo} alt="Valentino Logo" className="logo-img" />
+                    </a>
+                )}
 
-                <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-                    <button
-                        className={`nav-btn ${currentView === 'home' ? 'active-link' : ''}`}
-                        onClick={() => handleNavigation('home')}
-                    >
-                        Inicio
-                    </button>
-                    <button
-                        className={`nav-btn ${currentView === 'menu' ? 'active-link' : ''}`}
-                        onClick={() => handleNavigation('menu')}
-                    >
-                        Menú
-                    </button>
-                    <button
-                        className={`nav-btn ${currentView === 'contact' ? 'active-link' : ''}`}
-                        onClick={() => handleNavigation('contact')}
-                    >
-                        Contacto
-                    </button>
+                {currentView !== 'delivery' && (
+                    <>
+                        <div className={`nav-links ${isOpen ? 'active' : ''}`}>
+                            <button
+                                className={`nav-btn ${currentView === 'home' ? 'active-link' : ''}`}
+                                onClick={() => handleNavigation('home')}
+                            >
+                                Inicio
+                            </button>
+                            <button
+                                className={`nav-btn ${currentView === 'menu' ? 'active-link' : ''}`}
+                                onClick={() => handleNavigation('menu')}
+                            >
+                                Menú
+                            </button>
+                            <button
+                                className={`nav-btn ${currentView === 'contact' ? 'active-link' : ''}`}
+                                onClick={() => handleNavigation('contact')}
+                            >
+                                Contacto
+                            </button>
 
-                </div>
+                        </div>
 
-                <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
-                    <span className={`bar ${isOpen ? 'active' : ''}`}></span>
-                    <span className={`bar ${isOpen ? 'active' : ''}`}></span>
-                </button>
+                        <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
+                            <span className={`bar ${isOpen ? 'active' : ''}`}></span>
+                            <span className={`bar ${isOpen ? 'active' : ''}`}></span>
+                        </button>
+                    </>
+                )}
             </div>
         </nav>
     );

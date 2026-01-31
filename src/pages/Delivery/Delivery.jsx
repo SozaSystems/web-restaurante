@@ -1,9 +1,9 @@
 import React, { useState, useRef } from 'react';
 import logo from '../../assets/vale2.webp';
-import { menuData } from '../../data/menuData';
-import './Menu.css';
+import { deliveryMenuData } from '../../data/deliveryMenuData';
+import './Delivery.css';
 
-const Menu = () => {
+const Delivery = () => {
     const [openCategory, setOpenCategory] = useState(null);
     const categoryRefs = useRef({});
 
@@ -31,10 +31,10 @@ const Menu = () => {
             <div className="menu-logo-container">
                 <img src={logo} alt="Valentino" className="page-logo" />
             </div>
-            <h1 className="text-center menu-title">Nuestro Menú</h1>
+            <h1 className="text-center menu-title">Menú Delivery y Take Away</h1>
 
             <div className="menu-categories">
-                {menuData.map((category) => (
+                {deliveryMenuData.map((category) => (
                     <div
                         key={category.id}
                         className="menu-category"
@@ -66,16 +66,16 @@ const Menu = () => {
                     </div>
                 ))}
             </div>
-            
-            <p className="menu-disclaimer">Precios publicados son para consumo en el local</p>
+
+            <p className="menu-disclaimer">Precios publicados son para delivery y take away</p>
 
             <div className="menu-promo">
                 <p className="promo-text">🎉 ¡Aprovecha los beneficios de la compra en TAKE AWAY! 🎉</p>
             </div>
 
-            
+
         </div>
     );
 };
 
-export default Menu;
+export default Delivery;

@@ -4,6 +4,7 @@ import { navigateTo } from './store/navigationSlice';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 import Menu from './pages/Menu/Menu';
+import Delivery from './pages/Delivery/Delivery';
 import Contact from './pages/Contact/Contact';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       const path = window.location.pathname.toLowerCase();
       if (path.includes('menu')) {
         dispatch(navigateTo('menu'));
+      } else if (path.includes('delivery')) {
+        dispatch(navigateTo('delivery'));
       } else if (path.includes('contact') || path.includes('contacto')) {
         dispatch(navigateTo('contact'));
       } else {
@@ -35,6 +38,7 @@ function App() {
   useEffect(() => {
     let path = '/';
     if (currentView === 'menu') path = '/menu';
+    if (currentView === 'delivery') path = '/delivery';
     if (currentView === 'contact') path = '/contacto';
 
     if (window.location.pathname !== path) {
@@ -46,6 +50,7 @@ function App() {
     <Layout>
       {currentView === 'home' && <Home />}
       {currentView === 'menu' && <Menu />}
+      {currentView === 'delivery' && <Delivery />}
       {currentView === 'contact' && <Contact />}
     </Layout>
   );
