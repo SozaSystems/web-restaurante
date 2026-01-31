@@ -102,6 +102,7 @@
     color: #555;
     /* Neutral grey for descriptions */
     font-size: 0.95rem;
+    word-spacing: 0.2rem;
 }
 
 .page-logo {

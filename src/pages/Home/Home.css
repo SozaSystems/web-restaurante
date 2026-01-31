@@ -131,6 +131,7 @@
 
 .dish-card p {
     color: var(--text-primary);
+    word-spacing: 0.2rem;
 }
 
 /* ===== SECTION: CTA FINAL (Coral) ===== */
