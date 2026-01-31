@@ -38,3 +38,59 @@
         0 0 35px #DC143C;
     transform: scale(1.08);
 }
+
+.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info {
+    text-align: center;
+}
+
+.social-icons {
+    position: absolute;
+    left: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-btn {
+    color: var(--color-white);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.social-btn:hover {
+    color: #E1306C;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(225, 48, 108, 0.4);
+}
+
+.facebook-btn:hover {
+    color: #1877F2;
+    box-shadow: 0 4px 10px rgba(24, 119, 242, 0.4);
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .social-icons {
+        position: static;
+        transform: none;
+        margin-bottom: 0.5rem;
+    }
+}
