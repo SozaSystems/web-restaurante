@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { navigateTo } from '../../store/navigationSlice';
 import './Navbar.css';
 
-import logo from '../../assets/logo_valentino.webp';
+import logo from '../../assets/valenav.webp';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);

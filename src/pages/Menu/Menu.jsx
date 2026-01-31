@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import logo from '../../assets/logo_valentino.webp';
+import logo from '../../assets/vale2.webp';
 import { menuData } from '../../data/menuData';
 import './Menu.css';
 

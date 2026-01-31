@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo_valentino.webp';
+import logo from '../../assets/vale2.webp';
 import './Contact.css';
 
 const Contact = () => {
@@ -31,9 +31,21 @@ const Contact = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn btn-primary whatsapp-btn"
-                            style={{ textDecoration: 'none', display: 'inline-block' }}
                         >
                             WhatsApp: +54 9 353 351 5989
+                        </a>
+                    </div>
+
+                    <div className="info-section">
+                        <h2 className="info-title">¡Valóranos!</h2>
+                        <p className="subtitle">Dejanos tu opinión en Google Maps</p>
+                        <a
+                            href="https://maps.app.goo.gl/aahYUjSEXYnQNQ5DA"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn btn-secondary contact-btn"
+                        >
+                            Reseñas ⭐
                         </a>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { navigateTo } from '../../store/navigationSlice';
-import logo from '../../assets/logo_valentino.webp';
+import logo from '../../assets/vale2.webp';
 import './Home.css';
 
 const Home = () => {

@@ -3,7 +3,7 @@
 }
 
 .contact-title {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     color: var(--color-secondary);
 }
 
@@ -31,7 +31,6 @@
 
 .info-text {
     font-size: 1.1rem;
-    margin-bottom: 0.5rem;
     color: var(--color-text-main);
 }
 
@@ -41,7 +40,6 @@
 
 .subtitle {
     margin-bottom: 1rem;
-    font-style: italic;
     color: var(--color-text-main);
 }
 
@@ -68,4 +66,9 @@
     width: auto;
     object-fit: contain;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.contact-btn {
+    text-decoration: none;
+    display: inline-block;
 }

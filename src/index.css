@@ -103,7 +103,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: var(--bg-main);
+  background-color: var(--color-secondary-dark);
   color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -151,8 +151,6 @@ button {
   border-radius: var(--border-radius);
 }
 
-/* App Container - Fix para navbar fixed */
-/* App Container - Fix para navbar fixed */
 /* App Container */
 .app-container {
   display: flex;
@@ -172,7 +170,7 @@ main {
   position: relative;
   z-index: 1;
   /* Fondo del body para el contenido */
-  background-color: var(--bg-main);
+  background-color: var(--color-bg);
 }
 
 /* Utility Classes */

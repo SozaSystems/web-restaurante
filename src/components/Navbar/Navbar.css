@@ -13,8 +13,10 @@
     /* Fix para Safari iOS - forzar aceleración por hardware */
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-content {
@@ -23,6 +25,7 @@
     align-items: center;
     position: relative;
     z-index: 10001;
+    width: 100%;
     /* Above mobile menu */
 }
 
@@ -32,9 +35,7 @@
 }
 
 .logo-img {
-    height: 7vmin;
-    min-height: 50px;
-    max-height: 80px;
+    height: clamp(35px, 6vmin, 60px);
     width: auto;
     object-fit: contain;
 }
@@ -130,7 +131,7 @@
 
     .nav-links {
         position: fixed;
-        top: 60px;
+        top: 6.5vh;
         /* Adjust based on navbar height */
         left: 0;
         right: 0;
@@ -166,6 +167,8 @@
         top: 14.5px;
         transform: rotate(-45deg);
     }
+
+
 }
 
 /* Reservas Special Effect */

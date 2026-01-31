@@ -184,8 +184,8 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .menu-promo {
-        margin: 2rem 1rem 1rem;
-        padding: 1.5rem 1rem;
+        margin: 1.5rem 1rem 1rem;
+        padding: 1rem 0.5rem;
     }
 
     .promo-text {

@@ -71,7 +71,7 @@
 .section-quality {
     padding: 4rem 1rem;
     text-align: center;
-    background-color: var(--bg-section-light);
+    background-color: var(--bg-main);
     color: var(--text-primary);
 }
 
