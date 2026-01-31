@@ -19,7 +19,7 @@ const Home = () => {
                     rel="noopener noreferrer"
                     className="btn btn-primary hero-btn"
                 >
-                    Reservar Mesa
+                    Reservar &nbsp; Mesa
                 </a>
             </section>
 
