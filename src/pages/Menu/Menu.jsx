@@ -68,9 +68,9 @@ const Menu = () => {
             </div>
             
             <p className="menu-disclaimer">* Precios publicados son para consumo en el local y para delivery</p>
-            
+
             <div className="menu-promo">
-                <p className="promo-text">🎉 ¡10<span style={{ fontFamily: 'sans-serif' }}>%</span> de descuento en toda la compra en TAKE AWAY! 🎉</p>
+                <p className="promo-text">🎉 ¡Aprovecha los beneficios de la compra en TAKE AWAY! 🎉</p>
             </div>
 
             

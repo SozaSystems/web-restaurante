@@ -87,7 +87,7 @@ const Home = () => {
 
             {/* Final CTA Section */}
             <section className="cta-section">
-                <h2 className="section-title cta-section-title">Vive la Experiencia Valentino</h2>
+                <h2 className="section-title cta-section-title">Viví la Experiencia Valentino</h2>
                 <div className="cta-buttons">
                     <button
                         onClick={() => {
