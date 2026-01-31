@@ -68,7 +68,7 @@ const Menu = () => {
             </div>
 
             <div className="menu-promo">
-                <p className="promo-text">🎉 ¡10% de descuento en toda la compra en TAKE AWAY! 🎉</p>
+                <p className="promo-text">🎉 ¡10<span style={{ fontFamily: 'sans-serif' }}>%</span> de descuento en toda la compra en TAKE AWAY! 🎉</p>
             </div>
         </div>
     );

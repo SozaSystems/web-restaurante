@@ -6,10 +6,10 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <p className="footer-text">
-                    &copy; {new Date().getFullYear()} Valentino. Todos los derechos reservados.
+                    &copy; {new Date().getFullYear()} Valentino. &nbsp; Todos los derechos reservados.
                 </p>
                 <p className="footer-text footer-dev">
-                    Desarrollado por <a href="https://sozasystems.vercel.app/" target="_blank" rel="noopener noreferrer" className="soza-link">Soza Systems</a>
+                    Desarrollado por &nbsp; <a href="https://sozasystems.vercel.app/" target="_blank" rel="noopener noreferrer" className="soza-link">Soza Systems</a>
                 </p>
             </div>
         </footer>

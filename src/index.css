@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'TypoGraphica';
+  src: url('./assets/fonts/TypoGraphica.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NaughtyMonster';
+  src: url('./assets/fonts/NaughtyMonster.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   /* ===== PALETA DE COLORES BASE ===== */
   /* Solo 5 colores permitidos: Primary (Coral), Secondary (Verde), Background (Beige), Negro, Blanco */
@@ -73,8 +89,8 @@
   --border-secondary: var(--color-secondary);
 
   /* Typography */
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Open Sans', sans-serif;
+  --font-heading: 'NaughtyMonster', 'Outfit', sans-serif;
+  --font-body: 'TypoGraphica', 'Open Sans', sans-serif;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
@@ -106,6 +122,8 @@ body {
   background-color: var(--color-secondary-dark);
   color: var(--text-primary);
   line-height: 1.6;
+  letter-spacing: 0.05em;
+  /* Espaciado extra para mejor lectura */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* Altura estándar */
@@ -132,6 +150,8 @@ h6 {
   font-family: var(--font-heading);
   font-weight: 700;
   color: var(--text-secondary);
+  letter-spacing: 0.08em;
+  /* Espaciado extra para títulos */
 }
 
 a {

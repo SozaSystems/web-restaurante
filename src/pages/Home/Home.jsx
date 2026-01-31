@@ -73,7 +73,7 @@ const Home = () => {
                         </div>
                         <div className="dish-card">
                             <h3 className="dish-title">Take Away</h3>
-                            <p>Pedí y retirá para disfrutar donde quieras. <strong>¡10% de descuento en toda tu compra!</strong></p>
+                            <p>Pedí y retirá para disfrutar donde quieras. <strong>¡10<span style={{ fontFamily: 'sans-serif' }}>%</span> de descuento en toda tu compra!</strong></p>
                         </div>
                     </div>
                 </div>
