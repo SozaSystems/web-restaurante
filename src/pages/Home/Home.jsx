@@ -36,11 +36,11 @@ const Home = () => {
                     <h2 className="section-title">Nuestra Historia</h2>
                     <p className="history-text">
                         Desde 2008, en Valentino hacemos pizzas con historia.
-                        Nacimos con la idea de crear algo distinto en la ciudad, construyendo nuestro propio horno de barro y apostando por pizzas con un toque casero, único y familiar.
+                        Nacimos con la idea de crear algo distinto en la ciudad, construyendo nuestro propio horno de barro y apostando por pizzas con un toque casero,&nbsp; único y familiar.
                         <br />
                         <br />
-                        Fuimos pioneros incorporando sabores nuevos como tacos, nachos y canastitas, sin dejar de lado los clásicos, para armar una mesa pensada para todos los gustos.
-                        Pero siempre hubo una protagonista: nuestra pizza, la estrella que nos dio identidad, crecimiento y visión.
+                        Fuimos pioneros incorporando sabores nuevos como tacos,&nbsp; nachos y canastitas, sin dejar de lado los clásicos, para armar una mesa pensada para todos los gustos.
+                        Pero siempre hubo una protagonista: nuestra pizza, la estrella que nos dio identidad,&nbsp; crecimiento y visión.
                         <br />
                         <br />
                         Hoy vamos más allá del producto.
@@ -48,7 +48,7 @@ const Home = () => {
                         Trabajamos cada día para mejorar la calidad y el disfrute de quienes nos eligen.
                         <br />
                         <br />
-                        Valentino. Pizza, momentos y ganas de volver. 🍕❤️
+                        Valentino. Pizza,&nbsp; momentos y ganas de volver. 🍕❤️
                     </p>
                 </div>
             </section>
@@ -65,7 +65,7 @@ const Home = () => {
                     <div className="dishes-grid">
                         <div className="dish-card">
                             <h3 className="dish-title">Experiencia en el Local</h3>
-                            <p>Disfruta de nuestra atención personalizada y ambiente acogedor con la mejor música y servicio.</p>
+                            <p>Disfruta de nuestra atención personalizada, ambiente acogedor con la mejor música y servicio.</p>
                         </div>
                         <div className="dish-card">
                             <h3 className="dish-title">Delivery</h3>

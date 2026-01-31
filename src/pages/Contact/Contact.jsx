@@ -14,7 +14,7 @@ const Contact = () => {
                 <div className="contact-info">
                     <div className="info-section">
                         <p className="info-text">Carlos Pellegrini 43</p>
-                        <p className="info-text">Cordoba, Las varillas</p>
+                        <p className="info-text">Cordoba,&nbsp; Las varillas</p>
                     </div>
 
                     <div className="info-section">
@@ -25,7 +25,7 @@ const Contact = () => {
 
                     <div className="info-section">
                         <h2 className="info-title">Contactanos</h2>
-                        <p className="subtitle">Para reservas, delivery o take away</p>
+                        <p className="subtitle">Para reservas,&nbsp; delivery o take away</p>
                         <a
                             href="https://wa.me/5493533515989"
                             target="_blank"
