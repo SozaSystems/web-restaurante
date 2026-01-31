@@ -155,6 +155,7 @@
     letter-spacing: 0.5px;
     position: relative;
     z-index: 1;
+    word-spacing: 0.3rem;
 }
 
 @keyframes pulse-glow {
@@ -192,4 +193,13 @@
     .promo-text {
         font-size: 1.2rem;
     }
+}
+
+.menu-disclaimer {
+    text-align: center;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    font-style: italic;
+    opacity: 0.8;
 }

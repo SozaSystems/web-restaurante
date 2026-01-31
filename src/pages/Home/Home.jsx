@@ -12,7 +12,8 @@ const Home = () => {
             {/* Hero Section */}
             <section className="hero">
                 <img src={logo} alt="Valentino Logo" className="hero-logo" />
-                <p className="hero-subtitle">Pizza casera que une momentos.</p>
+                <p className="hero-subtitle">Buena pizza, buenos momentos.</p>
+                <p className="hero-subtitle">Un lugar para juntarse, compartir y disfrutar buena comida sin vueltas ideal para familias, amigos y celebraciones simples.</p>
                 <a
                     href="https://wa.me/5493533515989"
                     target="_blank"
@@ -73,7 +74,12 @@ const Home = () => {
                         </div>
                         <div className="dish-card">
                             <h3 className="dish-title">Take Away</h3>
-                            <p>Pedí y retirá para disfrutar donde quieras. <strong>¡10<span style={{ fontFamily: 'sans-serif' }}>%</span> de descuento en toda tu compra!</strong></p>
+                            <p>Pedí y retiralo para disfrutar donde quieras.
+                            <br />
+                            💛 Precios especiales para llevar.
+                            <br />
+                            📱Consulta por whatsapp.
+                            </p>
                         </div>
                     </div>
                 </div>
