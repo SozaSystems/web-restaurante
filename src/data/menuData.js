@@ -533,21 +533,5 @@ export const menuData = [
         "price": "$15000"
       }
     ]
-  },
-  {
-    "id": "testing",
-    "title": "Testing",
-    "items": [
-      {
-        "name": "plato test",
-        "description": "test",
-        "price": "1111"
-      },
-      {
-        "name": "test2",
-        "description": "test",
-        "price": "2222"
-      }
-    ]
   }
 ];
