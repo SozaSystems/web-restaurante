@@ -76,6 +76,38 @@
     border-color: var(--color-primary);
 }
 
+.password-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-input-wrapper input {
+    width: 100%;
+    padding-right: 2.8rem;
+    box-sizing: border-box;
+}
+
+.password-toggle-btn {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+    transition: opacity 0.2s;
+}
+
+.password-toggle-btn:hover {
+    opacity: 0.8;
+}
+
 .admin-error {
     color: #dc2626;
     font-size: 0.85rem;
@@ -146,6 +178,27 @@
 
 .admin-logout-btn:hover {
     background: rgba(255, 255, 255, 0.25);
+}
+
+.admin-panel-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+.admin-panel-logo {
+    max-width: 140px;
+    border-radius: 50%;
+    border: 3px solid var(--color-secondary);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: var(--color-white);
+}
+
+.admin-panel-logo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
 
 /* Tabs */
