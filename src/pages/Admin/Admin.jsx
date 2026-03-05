@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Eye, EyeOff } from 'lucide-react';
 import AdminPanel from './AdminPanel';
 import './Admin.css';
 import logo from '../../assets/vale2.webp';
@@ -93,7 +94,7 @@ const Admin = () => {
                                 tabIndex="-1"
                                 title={showPassword ? "Ocultar contraseña" : "Ver contraseña"}
                             >
-                                {showPassword ? '🙈' : '👁️'}
+                                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
                             </button>
                         </div>
                     </div>

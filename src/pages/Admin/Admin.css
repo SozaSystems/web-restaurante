@@ -196,11 +196,6 @@
     background: var(--color-white);
 }
 
-.admin-panel-logo:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-}
-
 /* Tabs */
 .admin-tabs {
     max-width: 900px;
