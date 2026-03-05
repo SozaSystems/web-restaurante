@@ -533,17 +533,6 @@ export const menuData = [
         "price": "$15000"
       }
     ]
-  },
-  {
-    "id": "4",
-    "title": "4",
-    "items": [
-      {
-        "name": "4",
-        "description": "4",
-        "price": "4"
-      }
-    ]
   }
 ];
 
@@ -1080,17 +1069,6 @@ export const deliveryMenuData = [
         "name": "LAS PERDICES DULCE",
         "description": "Vino Las Perdices dulce",
         "price": "$15000"
-      }
-    ]
-  },
-  {
-    "id": "5",
-    "title": "5",
-    "items": [
-      {
-        "name": "5",
-        "description": "5",
-        "price": "5"
       }
     ]
   }
