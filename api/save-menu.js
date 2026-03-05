@@ -61,13 +61,11 @@ export default async function handler(req, res) {
     }
 
     try {
-        // Generar el contenido de los archivos JS
-        const menuContent = `export const menuData = ${JSON.stringify(menuData, null, 2)};\n`;
-        const deliveryContent = `export const deliveryMenuData = ${JSON.stringify(deliveryData, null, 2)};\n`;
+        // Generar el contenido del archivo JS
+        const combinedContent = `export const menuData = ${JSON.stringify(menuData, null, 2)};\n\nexport const deliveryMenuData = ${JSON.stringify(deliveryData, null, 2)};\n`;
 
-        // Actualizar ambos archivos en GitHub (esto crea un commit por archivo)
-        await updateFile('src/data/menuData.js', menuContent);
-        await updateFile('src/data/deliveryMenuData.js', deliveryContent);
+        // Actualizar archivo en GitHub (esto crea un solo commit para evitar conflictos en Vercel)
+        await updateFile('src/data/menuData.js', combinedContent);
 
         return res.status(200).json({
             success: true,

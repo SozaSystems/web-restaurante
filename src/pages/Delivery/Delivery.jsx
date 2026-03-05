@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import logo from '../../assets/vale2.webp';
-import { deliveryMenuData } from '../../data/deliveryMenuData';
+import { deliveryMenuData } from '../../data/menuData';
 import './Delivery.css';
 
 const Delivery = () => {

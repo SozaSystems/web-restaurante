@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { menuData as initialMenuData } from '../../data/menuData';
-import { deliveryMenuData as initialDeliveryData } from '../../data/deliveryMenuData';
+import { menuData as initialMenuData, deliveryMenuData as initialDeliveryData } from '../../data/menuData';
 
 const deepClone = (data) => JSON.parse(JSON.stringify(data));
 
