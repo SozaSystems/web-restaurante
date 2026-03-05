@@ -1,11 +1,10 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
-import { navigateTo } from '../../store/navigationSlice';
+import { useNavigate } from 'react-router-dom';
 import logo from '../../assets/vale2.webp';
 import './Home.css';
 
 const Home = () => {
-    const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     return (
         <div className="home-page">
@@ -75,10 +74,10 @@ const Home = () => {
                         <div className="dish-card">
                             <h3 className="dish-title">Take Away</h3>
                             <p>Pedí y retiralo para disfrutar donde quieras.
-                            <br />
-                            💛 Precios especiales para llevar.
-                            <br />
-                            📱Consulta por whatsapp.
+                                <br />
+                                💛 Precios especiales para llevar.
+                                <br />
+                                📱Consulta por whatsapp.
                             </p>
                         </div>
                     </div>
@@ -91,7 +90,7 @@ const Home = () => {
                 <div className="cta-buttons">
                     <button
                         onClick={() => {
-                            dispatch(navigateTo('menu'));
+                            navigate('/menu');
                             window.scrollTo(0, 0);
                         }}
                         className="btn btn-cta btn-cta-outline"

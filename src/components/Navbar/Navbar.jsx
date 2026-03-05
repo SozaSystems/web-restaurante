@@ -1,19 +1,15 @@
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { navigateTo } from '../../store/navigationSlice';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
 import logo from '../../assets/valenav.webp';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
-    const currentView = useSelector((state) => state.navigation.currentView);
-    const dispatch = useDispatch();
+    const location = useLocation();
 
     const toggleMenu = () => setIsOpen(!isOpen);
-
-    const handleNavigation = (view) => {
-        dispatch(navigateTo(view));
+    const closeMenu = () => {
         setIsOpen(false);
         window.scrollTo(0, 0);
     };
@@ -21,38 +17,40 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="container navbar-content">
-                {currentView === 'delivery' ? (
+                {location.pathname === '/delivery' ? (
                     <div className="logo">
                         <img src={logo} alt="Valentino Logo" className="logo-img" />
                     </div>
                 ) : (
-                    <a href="#" className="logo" onClick={(e) => { e.preventDefault(); handleNavigation('home'); }}>
+                    <Link to="/" className="logo" onClick={closeMenu}>
                         <img src={logo} alt="Valentino Logo" className="logo-img" />
-                    </a>
+                    </Link>
                 )}
 
-                {currentView !== 'delivery' && (
+                {location.pathname !== '/delivery' && (
                     <>
                         <div className={`nav-links ${isOpen ? 'active' : ''}`}>
-                            <button
-                                className={`nav-btn ${currentView === 'home' ? 'active-link' : ''}`}
-                                onClick={() => handleNavigation('home')}
+                            <NavLink
+                                to="/"
+                                className={({ isActive }) => `nav-btn ${isActive ? 'active-link' : ''}`}
+                                onClick={closeMenu}
                             >
                                 Inicio
-                            </button>
-                            <button
-                                className={`nav-btn ${currentView === 'menu' ? 'active-link' : ''}`}
-                                onClick={() => handleNavigation('menu')}
+                            </NavLink>
+                            <NavLink
+                                to="/menu"
+                                className={({ isActive }) => `nav-btn ${isActive ? 'active-link' : ''}`}
+                                onClick={closeMenu}
                             >
                                 Menú
-                            </button>
-                            <button
-                                className={`nav-btn ${currentView === 'contact' ? 'active-link' : ''}`}
-                                onClick={() => handleNavigation('contact')}
+                            </NavLink>
+                            <NavLink
+                                to="/contacto"
+                                className={({ isActive }) => `nav-btn ${isActive ? 'active-link' : ''}`}
+                                onClick={closeMenu}
                             >
                                 Contacto
-                            </button>
-
+                            </NavLink>
                         </div>
 
                         <button className="hamburger" onClick={toggleMenu} aria-label="Toggle menu">
