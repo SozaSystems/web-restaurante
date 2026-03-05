@@ -533,5 +533,16 @@ export const deliveryMenuData = [
         "price": "$15000"
       }
     ]
+  },
+  {
+    "id": "testeo",
+    "title": "testeo",
+    "items": [
+      {
+        "name": "test",
+        "description": "test",
+        "price": "3333"
+      }
+    ]
   }
 ];
