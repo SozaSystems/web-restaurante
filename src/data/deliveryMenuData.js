@@ -535,13 +535,13 @@ export const deliveryMenuData = [
     ]
   },
   {
-    "id": "testeo",
-    "title": "testeo",
+    "id": "test",
+    "title": "test",
     "items": [
       {
         "name": "test",
         "description": "test",
-        "price": "3333"
+        "price": "1111"
       }
     ]
   }
