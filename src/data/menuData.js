@@ -544,7 +544,7 @@ export const deliveryMenuData = [
       {
         "name": "MUZZARELLA",
         "description": "Mozzarella, salsa, aceitunas y orégano",
-        "price": "$9500"
+        "price": "$11000"
       },
       {
         "name": "ESPECIAL",
@@ -569,7 +569,7 @@ export const deliveryMenuData = [
       {
         "name": "NAPOLITANA ESPECIAL",
         "description": "Muzza, salsa, tomate en rodajas, jamón en tiras, parmesano, orégano y aceitunas",
-        "price": "$12000"
+        "price": "$13000"
       },
       {
         "name": "NAPOLITANA CON AJO",
@@ -890,6 +890,11 @@ export const deliveryMenuData = [
         "name": "DULCES",
         "description": "Carne molida, azúcar caramelizada, cebolla y pasas de uva",
         "price": "$2500"
+      },
+      {
+        "name": "Pollo Al  Puerro",
+        "description": "Pollo en trozos salteados con verduras\nCon salsa de puerro ",
+        "price": "2500"
       }
     ]
   },
