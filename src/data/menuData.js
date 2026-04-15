@@ -766,6 +766,16 @@ export const deliveryMenuData = [
         "name": "SUPER HAMBURGUESA COMPLETA",
         "description": "Medallón de hamburguesa, mayonesa, queso, jamón, verduras y huevo",
         "price": "$13000"
+      },
+      {
+        "name": "Súper  Hamburguesa Magnífica ",
+        "description": "Medallón de hamburguesa,jamón queso\nVerduras,huevo, mayonesa,salsa ketchup cebolla blanca ",
+        "price": "14000"
+      },
+      {
+        "name": "Súper Hamburguesa Baiconetta",
+        "description": "Medallón de hamburguesa súper,queso,cheddar derretido,cebolla morada,panceta ahumada,huevo y mayonesa",
+        "price": "14000"
       }
     ]
   },
