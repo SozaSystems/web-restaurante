@@ -1081,5 +1081,21 @@ export const deliveryMenuData = [
         "price": "$15000"
       }
     ]
+  },
+  {
+    "id": "pizza_dulce",
+    "title": "Pizza Dulce",
+    "items": [
+      {
+        "name": "Pizza  Dolche ",
+        "description": "Masa pizza napoletana nutella banana en rodajas, chocolate blanco,almendras o nueces partidas y salsa de nutella",
+        "price": "5000"
+      },
+      {
+        "name": "Pizza  Reina ",
+        "description": "Masa pizza napoletana chocolate semi amargo frutillas chocolate blanco , nueces o almendras picadas y salsa de chocolate",
+        "price": "5000"
+      }
+    ]
   }
 ];
