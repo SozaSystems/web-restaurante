@@ -319,8 +319,8 @@ export const menuData = [
     "title": "Empanadas de la Casa",
     "items": [
       {
-        "name": "CORTADA A CUCHILLO",
-        "description": "Carne de ternera cortada a cuchillo, cebolla, pimientos, verdeo y condimentos",
+        "name": "CRIOLLA SALADA TÍPICO NORTEÑO",
+        "description": "Carne Molida en Trozo, cebolla, pimientos, verdeo y condimentos",
         "price": "$3000"
       },
       {
