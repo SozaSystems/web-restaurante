@@ -6,7 +6,7 @@ export const menuData = [
       {
         "name": "MUZZARELLA",
         "description": "Mozzarella, salsa, aceitunas y orégano",
-        "price": "$12000"
+        "price": "$14000"
       },
       {
         "name": "ESPECIAL",
@@ -16,52 +16,52 @@ export const menuData = [
       {
         "name": "ESPECIAL ANCHOAS",
         "description": "Muzza, salsa, jamón, anchoas, pimientos, aceitunas y orégano",
-        "price": "$15000"
+        "price": "$18000"
       },
       {
         "name": "ESPECIAL HUEVO",
         "description": "Muzza, salsa, huevo, jamón, pimiento, aceitunas y orégano",
-        "price": "$16000"
+        "price": "$17000"
       },
       {
         "name": "FUGAZZETA",
         "description": "Muzza, salsa, cebolla salteada al pimentón, aceitunas y orégano",
-        "price": "$14000"
+        "price": "$15000"
       },
       {
         "name": "NAPOLITANA ESPECIAL",
         "description": "Muzza, salsa, tomate en rodajas, jamón en tiras, parmesano, orégano y aceitunas",
-        "price": "$14000"
+        "price": "$15000"
       },
       {
         "name": "NAPOLITANA CON AJO",
         "description": "Muzza, salsa, tomate en rodajas, ajo fresco, parmesano, aceitunas y orégano",
-        "price": "$14000"
+        "price": "$15000"
       },
       {
         "name": "CUATRO QUESOS",
         "description": "Muzza, salsa, roquefort, queso cuartirolo, parmesano, aceituna y orégano",
-        "price": "$15000"
+        "price": "$18000"
       },
       {
         "name": "ROQUEFORT",
         "description": "Muzza, salsa, queso roquefort, aceitunas y orégano",
-        "price": "$15000"
+        "price": "$18000"
       },
       {
         "name": "ANANA",
         "description": "Muzza, salsa, jamón, ananá en trozos, orégano y aceitunas",
-        "price": "$16000"
+        "price": "$17000"
       },
       {
         "name": "HAWAIANA",
         "description": "Muzza, salsa, jamón en tiras, palmitos, ananá, pimientos, salsa golf, aceitunas y orégano",
-        "price": "$16000"
+        "price": "$19000"
       },
       {
         "name": "MEDITERRANEA",
         "description": "Muzza, salsa, jamón crudo, tomate seco, parmesano, rúcula fresca, oliva, aceitunas",
-        "price": "$16000"
+        "price": "$19000"
       },
       {
         "name": "PALMITOS",
@@ -71,22 +71,22 @@ export const menuData = [
       {
         "name": "CALABREZA",
         "description": "Muzza, salsa, calabresa, queso parmesano, pimientos, orégano y aceitunas",
-        "price": "$17000"
+        "price": "$19000"
       },
       {
         "name": "SUPER POLLO",
         "description": "Muzza, salsa, pollo en hebras, salsa kétchup, roquefort, aceitunas y orégano",
-        "price": "$17000"
+        "price": "$20000"
       },
       {
         "name": "BOMBA",
         "description": "Muzza, salsa, mayonesa, papas fritas, huevos fritos, aceitunas y orégano",
-        "price": "$17000"
+        "price": "$19000"
       },
       {
         "name": "MARISCOS",
         "description": "Gambas, mejillones, tentáculos, media valva, salsa tomate, muzza",
-        "price": "$18000"
+        "price": "$20000"
       }
     ]
   },
@@ -102,17 +102,17 @@ export const menuData = [
       {
         "name": "NACHOS CON ROQUEFORT",
         "description": "Nachos con salsa de queso roquefort",
-        "price": "$15000"
+        "price": "$16000"
       },
       {
         "name": "NACHOS NAPOLITANO",
         "description": "Nachos con tomate, ajo y parmesano",
-        "price": "$15000"
+        "price": "$16000"
       },
       {
         "name": "NACHOS FUGAZZETA",
         "description": "Nachos con cebolla salteada al pimentón",
-        "price": "$15000"
+        "price": "$16000"
       }
     ]
   },
@@ -123,17 +123,17 @@ export const menuData = [
       {
         "name": "TACOS DE TERNERA",
         "description": "Tortilla de la casa, carne de ternera, cebolla, pimiento, verdeo, queso crema casero, lechuga fresca y tomates cubeteados",
-        "price": "$5000"
+        "price": "6000"
       },
       {
         "name": "TACOS DE POLLO",
         "description": "Tortilla de la casa, pechuga en tiras, cebolla, pimiento, verdeo, queso crema casero, lechuga fresca y tomates cubeteados",
-        "price": "$5000"
+        "price": "$6000"
       },
       {
         "name": "TACOS MIXTOS",
         "description": "Tortilla de la casa, carne de ternera procesado con pollo en tiras, cebolla, pimiento, verdeo, queso crema casero, lechuga fresca y tomates cubeteados",
-        "price": "$5000"
+        "price": "6000"
       }
     ]
   },
@@ -144,17 +144,17 @@ export const menuData = [
       {
         "name": "RABAS",
         "description": "Tubo de calamar rebozado, papas fritas, salsas y limones",
-        "price": "$19500"
+        "price": "23000"
       },
       {
         "name": "TABLA DE MARISCOS (2 personas)",
         "description": "Langostinos, mejillones, cornalitos, merluzón, rabas, papas y limón. Rebozados con salsas y limón",
-        "price": "$65000"
+        "price": "$60000"
       },
       {
         "name": "TABLA DE MARISCOS (4 personas)",
         "description": "Langostinos, mejillones, cornalitos, merluzón, rabas, papas y limón. Rebozados con salsas y limón",
-        "price": "$115000"
+        "price": "$105000"
       }
     ]
   },
@@ -165,22 +165,27 @@ export const menuData = [
       {
         "name": "LOMO AL PLATO COMPLETO",
         "description": "Lomito de ternera, jamón, queso, huevos, lechuga, tomate y papas",
-        "price": "$15000"
+        "price": "$17000"
       },
       {
         "name": "SANDWICH DE LOMO DE TERNERA",
         "description": "Lomito de ternera, jamón, queso, huevo, lechuga y tomate frescos, mayonesa. (Pan árabe o francés)",
-        "price": "$16000"
+        "price": "$17000"
       },
       {
         "name": "SANDWICH DE LOMO CRIOLLO",
         "description": "Lomito de ternera, jamón, queso, huevo, cebolla y pimiento salteado con salsa criolla, mayonesa, lechuga y tomate frescos. (Pan árabe o francés)",
-        "price": "$17000"
+        "price": "$19000"
       },
       {
         "name": "SANDWICH DE LOMO MEXICANO",
         "description": "Lomito de ternera, jamón, queso, ajíes, salsa, guacamole, huevo, mayonesa, lechuga y tomate frescos. (Pan árabe o francés)",
-        "price": "$17000"
+        "price": "$19000"
+      },
+      {
+        "name": "Lomo completo ",
+        "description": "Pan frances o árabe\nJamón queso huevo lechuga tomate y papas",
+        "price": "18000"
       }
     ]
   },
@@ -191,27 +196,27 @@ export const menuData = [
       {
         "name": "SANDWICH DE MILANESA DE POLLO",
         "description": "Suprema de pollo de la casa, queso, huevo, lechuga y tomate fresca",
-        "price": "$11000"
+        "price": "15000"
       },
       {
         "name": "SANDWICH DE MILANESA DE POLLO A LA NAPOLITANA",
         "description": "Suprema de pollo de la casa, jamón, queso, tomates en rodajas fresco, queso parmesano",
-        "price": "$11000"
+        "price": "$15000"
       },
       {
         "name": "SANDWICH DE MILANESA",
         "description": "Milanesa de ternera en pan",
-        "price": "$12000"
+        "price": "$16000"
       },
       {
         "name": "MILANESA DE TERNERA AL PLATO",
         "description": "Milanesa de ternera y papas",
-        "price": "$13000"
+        "price": "$17000"
       },
       {
         "name": "SANDWICH DE MILANESA DE TERNERA A LA NAPOLITANA",
         "description": "Milanesa de ternera de la casa, jamón, queso, tomates en rodajas fresco, queso parmesano",
-        "price": "$14000"
+        "price": "$16000"
       }
     ]
   },
@@ -222,12 +227,22 @@ export const menuData = [
       {
         "name": "SUPER HAMBURGUESA SIMPLE",
         "description": "Medallón de hamburguesa, mayonesa, queso y jamón",
-        "price": "$12000"
+        "price": "$13000"
       },
       {
         "name": "SUPER HAMBURGUESA COMPLETA",
         "description": "Medallón de hamburguesa, mayonesa, queso, jamón, verduras y huevo",
-        "price": "$13000"
+        "price": "$14000"
+      },
+      {
+        "name": "Super Hamburguesa Baiconeta",
+        "description": "Medallón carne panceta ahumada cebolla morada lechuga huevo papas fritas ",
+        "price": "15000"
+      },
+      {
+        "name": "Súper Hamburguesa",
+        "description": "Medallón de hamburguesa ketchup cebolla blanca jamón queso huevo lechuga y tomate\nPapas fritas",
+        "price": "15000"
       }
     ]
   },
@@ -238,12 +253,12 @@ export const menuData = [
       {
         "name": "PORCIÓN DE PAPAS",
         "description": "Papas fritas clásicas",
-        "price": "$5000"
+        "price": "6000"
       },
       {
         "name": "PAPAS CON HUEVO",
         "description": "Papas fritas con huevo",
-        "price": "$7000"
+        "price": "$8000"
       },
       {
         "name": "PAPAS CON CHEDDAR",
@@ -280,11 +295,11 @@ export const menuData = [
       {
         "name": "BURRITOS",
         "description": "Tortilla de la casa, pollo en tira, cebolla, verdeo, ajo",
-        "price": "$4500"
+        "price": "5000"
       },
       {
-        "name": "QUESADILLA DE JAMÓN Y QUESO",
-        "description": "Quesadilla rellena de jamón y queso",
+        "name": "MINI  TORTA  DE JAMÓN Y QUESO",
+        "description": "Tarta de jamón y queso",
         "price": "$4500"
       },
       {
@@ -321,27 +336,27 @@ export const menuData = [
       {
         "name": "CRIOLLA SALADA TÍPICO NORTEÑO",
         "description": "Carne Molida en Trozo, cebolla, pimientos, verdeo y condimentos",
-        "price": "$3000"
+        "price": "2700"
       },
       {
         "name": "MATAMBRE",
         "description": "Matambre cortado a cuchillo, cebolla, pimiento, verdeo, condimentos",
-        "price": "$3000"
+        "price": "2700"
       },
       {
         "name": "ÁRABE",
         "description": "Carne molida, cebolla, pimientos asados, limón, condimentos",
-        "price": "$3000"
-      },
-      {
-        "name": "OSOBUCCO AL MALBEC",
-        "description": "Osobucco, cebolla, pimientos, verdeo, malbec, verduras cocidas",
-        "price": "$3000"
+        "price": "2700"
       },
       {
         "name": "DULCES",
         "description": "Carne molida, azúcar caramelizada, cebolla y pasas de uva",
-        "price": "$3000"
+        "price": "2700"
+      },
+      {
+        "name": "Empanadas de Pollo al Puerro",
+        "description": "Pechuga de pollo cortada en cubos\nSalsa puerro verduras \nDisco casero ",
+        "price": "2700"
       }
     ]
   },
@@ -352,12 +367,12 @@ export const menuData = [
       {
         "name": "JAMÓN Y QUESO",
         "description": "Jamón en cubos, queso muzza y queso cuartirolo",
-        "price": "$3500"
+        "price": "$2700"
       },
       {
         "name": "CAPRESE",
         "description": "Queso muzzarella, tomate en cubos, hierba aromat, aceitunas",
-        "price": "$3500"
+        "price": "$2700"
       },
       {
         "name": "FUGAZZETA",
@@ -367,32 +382,32 @@ export const menuData = [
       {
         "name": "4 QUESOS",
         "description": "Queso cuartirolo, muzza, roquefort, parmesano",
-        "price": "$3500"
+        "price": "$2700"
       },
       {
         "name": "MEDITERRANEA",
         "description": "Muzza, tomates secos, jamón crudo, parmesano, rúcula fresca",
-        "price": "$3500"
+        "price": "2700"
       },
       {
         "name": "SUPER POLLO",
         "description": "Muzza, pollo en hebras, roquefort, salsa ketchup",
-        "price": "$3500"
+        "price": "$2700"
       },
       {
         "name": "ESPECIAL PALMITOS",
         "description": "Muzza, jamón, palmitos en cubos y salsa golf",
-        "price": "$3500"
+        "price": "$2700"
       },
       {
         "name": "ANANÁ GLASEADA",
         "description": "Muzza, jamón, ananá en cubos y azúcar negra",
-        "price": "$3500"
+        "price": "$2700"
       },
       {
         "name": "CHAMPIÑÓN",
         "description": "Muzza, champiñón, jamón, salsa golf",
-        "price": "$3500"
+        "price": "$2700"
       }
     ]
   },
@@ -403,12 +418,12 @@ export const menuData = [
       {
         "name": "AGUA CHICA 500ml",
         "description": "Agua mineral",
-        "price": "$3600"
+        "price": "$3800"
       },
       {
         "name": "GASEOSA CHICA 500ml",
         "description": "Gaseosa en botella chica",
-        "price": "$4200"
+        "price": "4000"
       },
       {
         "name": "GASEOSA VIDRIO 1,25L",
@@ -418,7 +433,7 @@ export const menuData = [
       {
         "name": "GASEOSA DESCARTABLE 1,5L",
         "description": "Gaseosa en botella descartable",
-        "price": "$9000"
+        "price": "$8500"
       }
     ]
   },
@@ -429,7 +444,7 @@ export const menuData = [
       {
         "name": "BRAMAH CHICA LATA",
         "description": "Cerveza Bramah en lata",
-        "price": "$4300"
+        "price": "$4600"
       },
       {
         "name": "QUILMES STOUT CHICA",
@@ -449,7 +464,7 @@ export const menuData = [
       {
         "name": "CORONA CHICA",
         "description": "Cerveza Corona chica",
-        "price": "$6000"
+        "price": "$7000"
       },
       {
         "name": "STELLA LATA",
@@ -469,17 +484,17 @@ export const menuData = [
       {
         "name": "STELLA NOIRE NEGRA 1L",
         "description": "Cerveza Stella Noire negra 1 litro",
-        "price": "$11000"
+        "price": "$12000"
       },
       {
         "name": "STELLA ARTOIS 1L",
         "description": "Cerveza Stella Artois 1 litro",
-        "price": "$11000"
+        "price": "$12000"
       },
       {
         "name": "CORONA GRANDE 710ml",
         "description": "Cerveza Corona 710ml",
-        "price": "$11000"
+        "price": "$12000"
       }
     ]
   },
@@ -490,7 +505,7 @@ export const menuData = [
       {
         "name": "SANTA JULIA ⅜",
         "description": "Vino Santa Julia 375ml",
-        "price": "$7000"
+        "price": "9500"
       },
       {
         "name": "SANTA JULIA ¾ TINTO",
@@ -500,32 +515,32 @@ export const menuData = [
       {
         "name": "SANTA JULIA ¾ BLANCO",
         "description": "Vino Santa Julia 750ml blanco",
-        "price": "$9500"
+        "price": "12000"
       },
       {
         "name": "LAS PERDICES ¾ TINTO",
         "description": "Vino Las Perdices 750ml tinto",
-        "price": "$13000"
+        "price": "$15000"
       },
       {
         "name": "LAS PERDICES ¾ BLANCO",
         "description": "Vino Las Perdices 750ml blanco",
-        "price": "$13000"
+        "price": "$15000"
       },
       {
         "name": "PARTRIDGE ¾ BLANCO",
         "description": "Vino Partridge 750ml blanco",
-        "price": "$7500"
+        "price": "11000"
       },
       {
         "name": "PARTRIDGE ¾ TINTO",
         "description": "Vino Partridge 750ml tinto",
-        "price": "$7500"
+        "price": "$11000"
       },
       {
         "name": "SANTA JULIA DULCE",
         "description": "Vino Santa Julia dulce",
-        "price": "$9000"
+        "price": "$13500"
       },
       {
         "name": "LAS PERDICES DULCE",
