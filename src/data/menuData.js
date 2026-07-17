@@ -559,87 +559,87 @@ export const deliveryMenuData = [
       {
         "name": "MUZZARELLA",
         "description": "Mozzarella, salsa, aceitunas y orégano",
-        "price": "$11000"
+        "price": "$14000"
       },
       {
         "name": "ESPECIAL",
         "description": "Muzza, salsa, jamón, pimientos, aceitunas y orégano",
-        "price": "$13000"
+        "price": "$16000"
       },
       {
         "name": "ESPECIAL ANCHOAS",
         "description": "Muzza, salsa, jamón, anchoas, pimientos, aceitunas y orégano",
-        "price": "$14000"
+        "price": "$18000"
       },
       {
         "name": "ESPECIAL HUEVO",
         "description": "Muzza, salsa, huevo, jamón, pimiento, aceitunas y orégano",
-        "price": "$14000"
+        "price": "$17000"
       },
       {
         "name": "FUGAZZETA",
         "description": "Muzza, salsa, cebolla salteada al pimentón, aceitunas y orégano",
-        "price": "$12000"
+        "price": "$15000"
       },
       {
         "name": "NAPOLITANA ESPECIAL",
         "description": "Muzza, salsa, tomate en rodajas, jamón en tiras, parmesano, orégano y aceitunas",
-        "price": "$13000"
+        "price": "$15000"
       },
       {
         "name": "NAPOLITANA CON AJO",
         "description": "Muzza, salsa, tomate en rodajas, ajo fresco, parmesano, aceitunas y orégano",
-        "price": "$12000"
+        "price": "$15000"
       },
       {
         "name": "CUATRO QUESOS",
         "description": "Muzza, salsa, roquefort, queso cuartirolo, parmesano, aceituna y orégano",
-        "price": "$14000"
+        "price": "$18000"
       },
       {
         "name": "ROQUEFORT",
         "description": "Muzza, salsa, queso roquefort, aceitunas y orégano",
-        "price": "$14000"
+        "price": "$17000"
       },
       {
         "name": "ANANA",
         "description": "Muzza, salsa, jamón, ananá en trozos, orégano y aceitunas",
-        "price": "$15000"
+        "price": "17000"
       },
       {
         "name": "HAWAIANA",
         "description": "Muzza, salsa, jamón en tiras, palmitos, ananá, pimientos, salsa golf, aceitunas y orégano",
-        "price": "$15000"
+        "price": "19000"
       },
       {
         "name": "MEDITERRANEA",
         "description": "Muzza, salsa, jamón crudo, tomate seco, parmesano, rúcula fresca, oliva, aceitunas",
-        "price": "$15000"
+        "price": "$19000"
       },
       {
         "name": "PALMITOS",
         "description": "Muzza, salsa, palmitos en cubo, salsa golf, aceitunas y orégano",
-        "price": "$15000"
+        "price": "17000"
       },
       {
         "name": "CALABREZA",
         "description": "Muzza, salsa, calabresa, queso parmesano, pimientos, orégano y aceitunas",
-        "price": "$15000"
+        "price": "$19000"
       },
       {
         "name": "SUPER POLLO",
         "description": "Muzza, salsa, pollo en hebras, salsa kétchup, roquefort, aceitunas y orégano",
-        "price": "$16000"
+        "price": "20000"
       },
       {
         "name": "BOMBA",
         "description": "Muzza, salsa, mayonesa, papas fritas, huevos fritos, aceitunas y orégano",
-        "price": "$16000"
+        "price": "19000"
       },
       {
         "name": "MARISCOS",
         "description": "Gambas, mejillones, tentáculos, media valva, salsa tomate, muzza",
-        "price": "$17000"
+        "price": "20000"
       }
     ]
   },
@@ -655,17 +655,17 @@ export const deliveryMenuData = [
       {
         "name": "NACHOS CON ROQUEFORT",
         "description": "Nachos con salsa de queso roquefort",
-        "price": "$15000"
+        "price": "$16000"
       },
       {
         "name": "NACHOS NAPOLITANO",
         "description": "Nachos con tomate, ajo y parmesano",
-        "price": "$15000"
+        "price": "$16000"
       },
       {
         "name": "NACHOS FUGAZZETA",
         "description": "Nachos con cebolla salteada al pimentón",
-        "price": "$15000"
+        "price": "$16000"
       }
     ]
   },
@@ -697,12 +697,12 @@ export const deliveryMenuData = [
       {
         "name": "RABAS",
         "description": "Tubo de calamar rebozado, papas fritas, salsas y limones",
-        "price": "$19000"
+        "price": "23000"
       },
       {
         "name": "TABLA DE MARISCOS (2 personas)",
         "description": "Langostinos, mejillones, cornalitos, merluzón, rabas, papas y limón. Rebozados con salsas y limón",
-        "price": "$55000"
+        "price": "$60000"
       },
       {
         "name": "TABLA DE MARISCOS (4 personas)",
@@ -718,22 +718,22 @@ export const deliveryMenuData = [
       {
         "name": "LOMO AL PLATO COMPLETO",
         "description": "Lomito de ternera, jamón, queso, huevos, lechuga, tomate y papas",
-        "price": "$15000"
+        "price": "17000"
       },
       {
         "name": "SANDWICH DE LOMO DE TERNERA",
         "description": "Lomito de ternera, jamón, queso, huevo, lechuga y tomate frescos, mayonesa. (Pan árabe o francés)",
-        "price": "$15000"
+        "price": "$18000"
       },
       {
         "name": "SANDWICH DE LOMO CRIOLLO",
         "description": "Lomito de ternera, jamón, queso, huevo, cebolla y pimiento salteado con salsa criolla, mayonesa, lechuga y tomate frescos. (Pan árabe o francés)",
-        "price": "$17000"
+        "price": "$19000"
       },
       {
         "name": "SANDWICH DE LOMO MEXICANO",
         "description": "Lomito de ternera, jamón, queso, ajíes, salsa, guacamole, huevo, mayonesa, lechuga y tomate frescos. (Pan árabe o francés)",
-        "price": "$17000"
+        "price": "$19000"
       }
     ]
   },
@@ -744,27 +744,27 @@ export const deliveryMenuData = [
       {
         "name": "SANDWICH DE MILANESA DE POLLO",
         "description": "Suprema de pollo de la casa, queso, huevo, lechuga y tomate fresca",
-        "price": "$13000"
+        "price": "$15000"
       },
       {
         "name": "SANDWICH DE MILANESA DE POLLO A LA NAPOLITANA",
         "description": "Suprema de pollo de la casa, jamón, queso, tomates en rodajas fresco, queso parmesano",
-        "price": "$14000"
+        "price": "15000"
       },
       {
         "name": "SANDWICH DE MILANESA",
         "description": "Milanesa de ternera en pan",
-        "price": "$13000"
+        "price": "16000"
       },
       {
         "name": "MILANESA DE TERNERA AL PLATO",
         "description": "Milanesa de ternera y papas",
-        "price": "12000"
+        "price": "15000"
       },
       {
         "name": "SANDWICH DE MILANESA DE TERNERA A LA NAPOLITANA",
         "description": "Milanesa de ternera de la casa, jamón, queso, tomates en rodajas fresco, queso parmesano",
-        "price": "$14000"
+        "price": "$16000"
       }
     ]
   },
@@ -775,7 +775,7 @@ export const deliveryMenuData = [
       {
         "name": "SUPER HAMBURGUESA SIMPLE",
         "description": "Medallón de hamburguesa, mayonesa, queso y jamón",
-        "price": "$12000"
+        "price": "13000"
       },
       {
         "name": "SUPER HAMBURGUESA COMPLETA",
@@ -785,12 +785,12 @@ export const deliveryMenuData = [
       {
         "name": "Súper  Hamburguesa Magnífica ",
         "description": "Medallón de hamburguesa,jamón queso\nVerduras,huevo, mayonesa,salsa ketchup cebolla blanca ",
-        "price": "15000"
+        "price": "16000"
       },
       {
         "name": "Súper Hamburguesa Baiconetta",
         "description": "Medallón de hamburguesa súper,queso,cheddar derretido,cebolla morada,panceta ahumada,huevo y mayonesa",
-        "price": "15000"
+        "price": "16000"
       }
     ]
   },
@@ -806,7 +806,7 @@ export const deliveryMenuData = [
       {
         "name": "PAPAS CON HUEVO",
         "description": "Papas fritas con huevo",
-        "price": "$7000"
+        "price": "8000"
       },
       {
         "name": "PAPAS CON CHEDDAR",
@@ -827,7 +827,7 @@ export const deliveryMenuData = [
       {
         "name": "NUGGETS X 6 CON PAPAS",
         "description": "6 nuggets de pollo con papas fritas",
-        "price": "$7000"
+        "price": "$5000"
       },
       {
         "name": "NUGGETS X 12 CON PAPAS",
@@ -846,8 +846,8 @@ export const deliveryMenuData = [
         "price": "$5000"
       },
       {
-        "name": "QUESADILLA DE JAMÓN Y QUESO",
-        "description": "Quesadilla rellena de jamón y queso",
+        "name": "TORTA DE JAMÓN Y QUESO",
+        "description": "Fajitas rellena de jamón y queso",
         "price": "$4500"
       },
       {
@@ -882,29 +882,24 @@ export const deliveryMenuData = [
     "title": "Empanadas de la Casa",
     "items": [
       {
-        "name": "CORTADA A CUCHILLO",
-        "description": "Carne de ternera cortada a cuchillo, cebolla, pimientos, verdeo y condimentos",
-        "price": "$2500"
-      },
-      {
         "name": "MATAMBRE",
         "description": "Matambre cortado a cuchillo, cebolla, pimiento, verdeo, condimentos",
-        "price": "$2500"
+        "price": "$2700"
       },
       {
         "name": "ÁRABE",
         "description": "Carne molida, cebolla, pimientos asados, limón, condimentos",
-        "price": "$2500"
+        "price": "$2700"
       },
       {
         "name": "DULCES",
         "description": "Carne molida, azúcar caramelizada, cebolla y pasas de uva",
-        "price": "$2500"
+        "price": "$2700"
       },
       {
         "name": "Pollo Al  Puerro",
         "description": "Pollo en trozos salteados con verduras\nCon salsa de puerro ",
-        "price": "2500"
+        "price": "2700"
       }
     ]
   },
@@ -915,47 +910,47 @@ export const deliveryMenuData = [
       {
         "name": "JAMÓN Y QUESO",
         "description": "Jamón en cubos, queso muzza y queso cuartirolo",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "CAPRESE",
         "description": "Queso muzzarella, tomate en cubos, hierba aromat, aceitunas",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "FUGAZZETA",
         "description": "Queso cuartirolo, muzza, cebolla salteada",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "4 QUESOS",
         "description": "Queso cuartirolo, muzza, roquefort, parmesano",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "MEDITERRANEA",
         "description": "Muzza, tomates secos, jamón crudo, parmesano, rúcula fresca",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "SUPER POLLO",
         "description": "Muzza, pollo en hebras, roquefort, salsa ketchup",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "ESPECIAL PALMITOS",
         "description": "Muzza, jamón, palmitos en cubos y salsa golf",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "ANANÁ GLASEADA",
         "description": "Muzza, jamón, ananá en cubos y azúcar negra",
-        "price": "$2600"
+        "price": "$2700"
       },
       {
         "name": "CHAMPIÑÓN",
         "description": "Muzza, champiñón, jamón, salsa golf",
-        "price": "$2600"
+        "price": "$2700"
       }
     ]
   },
@@ -966,7 +961,7 @@ export const deliveryMenuData = [
       {
         "name": "AGUA CHICA 500ml",
         "description": "Agua mineral",
-        "price": "$3000"
+        "price": "$3800"
       },
       {
         "name": "GASEOSA CHICA 500ml",
@@ -1103,13 +1098,13 @@ export const deliveryMenuData = [
     "items": [
       {
         "name": "Pizza  Dolche ",
-        "description": "Masa pizza napoletana nutella banana en rodajas, chocolate blanco,almendras o nueces partidas y salsa de nutella",
-        "price": "6000"
+        "description": "Masa pizza napoletana nutella chocolate blanco,almendras o nueces partidas y salsa de nutella",
+        "price": "8500"
       },
       {
         "name": "Pizza  Reina ",
-        "description": "Masa pizza napoletana chocolate semi amargo frutillas chocolate blanco , nueces o almendras picadas y salsa de chocolate",
-        "price": "6000"
+        "description": "Masa pizza napoletana chocolate semi amargo chocolate blanco , nueces o almendras picadas y salsa de chocolate",
+        "price": "8500"
       }
     ]
   }
