@@ -11,7 +11,7 @@ export const menuData = [
       {
         "name": "ESPECIAL",
         "description": "Muzza, salsa, jamón, pimientos, aceitunas y orégano",
-        "price": "$14000"
+        "price": "$16000"
       },
       {
         "name": "ESPECIAL ANCHOAS",
@@ -46,7 +46,7 @@ export const menuData = [
       {
         "name": "ROQUEFORT",
         "description": "Muzza, salsa, queso roquefort, aceitunas y orégano",
-        "price": "$18000"
+        "price": "$17000"
       },
       {
         "name": "ANANA",
@@ -66,7 +66,7 @@ export const menuData = [
       {
         "name": "PALMITOS",
         "description": "Muzza, salsa, palmitos en cubo, salsa golf, aceitunas y orégano",
-        "price": "$16000"
+        "price": "$17000"
       },
       {
         "name": "CALABREZA",
@@ -237,12 +237,12 @@ export const menuData = [
       {
         "name": "Super Hamburguesa Baiconeta",
         "description": "Medallón carne panceta ahumada cebolla morada lechuga huevo papas fritas ",
-        "price": "15000"
+        "price": "16000"
       },
       {
         "name": "Súper Hamburguesa",
         "description": "Medallón de hamburguesa ketchup cebolla blanca jamón queso huevo lechuga y tomate\nPapas fritas",
-        "price": "15000"
+        "price": "16000"
       }
     ]
   },
@@ -279,12 +279,12 @@ export const menuData = [
       {
         "name": "NUGGETS X 6 CON PAPAS",
         "description": "6 nuggets de pollo con papas fritas",
-        "price": "$8000"
+        "price": "$5000"
       },
       {
         "name": "NUGGETS X 12 CON PAPAS",
         "description": "12 nuggets de pollo con papas fritas",
-        "price": "$12000"
+        "price": "9000"
       }
     ]
   },
@@ -510,7 +510,7 @@ export const menuData = [
       {
         "name": "SANTA JULIA ¾ TINTO",
         "description": "Vino Santa Julia 750ml tinto",
-        "price": "$9500"
+        "price": "12000"
       },
       {
         "name": "SANTA JULIA ¾ BLANCO",
